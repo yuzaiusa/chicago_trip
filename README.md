@@ -6,18 +6,22 @@ GitHub Pages.
 
 ## The trip
 - **Wed Jul 8** — Land at O'Hare ~9am, rental car, **Northwestern University** in Evanston.
-  Mom + Sarah take the admissions tour; Dad, Brooke + grandparents follow the **self-guided
-  walking tour** built into the app. Check in at the Renaissance Chicago North Shore Hotel.
-- **Thu Jul 9** — Day trip to **UIUC** (Urbana-Champaign). Admissions tour for Mom + Sarah;
-  a flat, easy **self-guided Main Quad walk** for everyone else.
-- **Fri Jul 10** — Skating camp for Mom, Sarah, Brooke. Dad + grandparents do **Millennium
-  Park, a seated architecture river cruise, and the Art Institute**.
-- **Sat Jul 11** — Skating camp again. Dad + grandparents do the lakefront **Museum Campus
-  (Field Museum) and a Chinatown dim-sum lunch**.
-- **Sun Jul 12** — Fly home.
+  Official campus tour 12–1pm (all but the grandparents) and the **Engineering (McCormick)
+  tour** for Bridget + Sarah. The grandparents (and Brooke, during the engineering tour) wait
+  at the air-conditioned **Norris University Center**. Check in at the Renaissance Chicago
+  North Shore Hotel.
+- **Thu Jul 9** — Day trip to **UIUC** (Urbana-Champaign): two tours (campus 10–12:30,
+  engineering 1:30–3:45). Brooke + grandparents wait at the cool **Illini Union**.
+- **Fri Jul 10** — Morning **University of Chicago** tour (8:30–11:30); grandparents rest at
+  the hotel. Brooke + Sarah start **skating camp at 2:30**; the rest enjoy a relaxed afternoon
+  at the **Chicago Botanic Garden** in Glencoe.
+- **Sat Jul 11** — Booked **architecture river cruise** (arrive 9:30, sail 10–11:30), then a
+  **Chinatown** dim-sum lunch and the lakefront **Field Museum / Museum Campus**.
+- **Sun Jul 12** — Skating camp finishes in the afternoon; a gentle morning at the **Baha'i
+  House of Worship** in Wilmette, then fly home (6pm).
 
-Everything is planned **senior-friendly**: under 2 miles of walking a day, flat paths,
-frequent benches, indoor/seated options, and afternoon rests.
+Everything is planned **senior-friendly**: flat paths, frequent benches, air-conditioned
+waiting spots near each tour, indoor/seated options, and afternoon rests.
 
 ## What it does
 - **Itinerary home** → tap a day → tap a site for details.

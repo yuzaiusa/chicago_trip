@@ -15,6 +15,8 @@ overwrite the file with the same name.
 - `nu-lakefill.jpg` — The Lakefill with Chicago skyline
 - `nu-block.jpg` — Block Museum of Art
 - `nu-observatory.jpg` — Dearborn Observatory
+- `norris-foodcourt.jpg` — Norris food court (grandparents' base)
+- `norris-lakeview.jpg` — Norris lakefront view
 
 ## Thu — University of Illinois (Urbana-Champaign)
 - `uiuc-alma-mater.jpg` — Alma Mater statue
@@ -25,23 +27,24 @@ overwrite the file with the same name.
 - `uiuc-morrow.jpg` — Morrow Plots
 - `uiuc-krannert.jpg` — Krannert Art Museum
 - `uiuc-stadium.jpg` — Memorial Stadium
+- `union-lounge.jpg` — Illini Union indoor lounge (waiting spot)
+- `union-food.jpg` — Illini Union food court
 
-## Fri — Millennium Park
-- `millennium-bean.jpg` — Cloud Gate ("The Bean")
-- `millennium-crown.jpg` — Crown Fountain
-- `millennium-pavilion.jpg` — Jay Pritzker Pavilion
-- `millennium-lurie.jpg` — Lurie Garden
-- `millennium-bridge.jpg` — BP Bridge / Maggie Daley Park
+## Fri — University of Chicago (Hyde Park)
+- `uchicago-quad.jpg` — the Gothic quadrangles
+- `uchicago-chapel.jpg` — Rockefeller Memorial Chapel
+- `uchicago-nuclear.jpg` — "Nuclear Energy" sculpture (Henry Moore)
 
-## Fri — Architecture River Cruise
+## Fri — Chicago Botanic Garden (Glencoe)
+- `botanic-tram.jpg` — Grand Tram Tour
+- `botanic-japanese.jpg` — Japanese Garden (Sansho-En)
+- `botanic-greenhouse.jpg` — the greenhouses
+- `botanic-cafe.jpg` — Garden View Café
+
+## Sat — Architecture River Cruise
 - `cruise-boat.jpg` — the tour boat
 - `cruise-skyline.jpg` — skyscrapers from the water
 - `cruise-riverwalk.jpg` — the Chicago Riverwalk
-
-## Fri — Art Institute of Chicago
-- `artic-lions.jpg` — the bronze lions
-- `artic-galleries.jpg` — masterpiece galleries
-- `artic-modern.jpg` — the Modern Wing
 
 ## Sat — Field Museum / Museum Campus
 - `field-sue.jpg` — SUE the T. rex
@@ -55,3 +58,12 @@ overwrite the file with the same name.
 - `chinatown-pingtom.jpg` — Ping Tom Memorial Park pagoda
 - `chinatown-dimsum.jpg` — dim sum lunch
 - `chinatown-bakery.jpg` — Chinese bakery treats
+
+## Sun — Baha'i House of Worship (Wilmette)
+- `bahai-dome.jpg` — the nine-sided dome
+- `bahai-gardens.jpg` — the gardens & fountains
+- `bahai-interior.jpg` — the quiet auditorium
+
+## Optional (defined but not on the current itinerary)
+- `millennium-bean.jpg`, `millennium-crown.jpg`, `millennium-pavilion.jpg`, `millennium-lurie.jpg`, `millennium-bridge.jpg` — Millennium Park
+- `artic-lions.jpg`, `artic-galleries.jpg`, `artic-modern.jpg` — Art Institute of Chicago

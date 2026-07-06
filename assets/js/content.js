@@ -76,70 +76,70 @@ const TRIP = {
       label: { en: "Wed · Jul 8", zh: "周三 · 7月8日" },
       title: { en: "Arrive & Northwestern University", zh: "抵达 · 西北大学" },
       summary: {
-        en: "Land at O'Hare around 9am, pick up the rental car, and spend the day at Northwestern's beautiful lakefront campus in Evanston. Mom and Sarah take the admissions tour; Dad, Brooke and grandparents follow the easy self-guided walk below. Check in at the hotel in the evening.",
-        zh: "上午9点左右抵达奥黑尔机场，取租车，全天在埃文斯顿（Evanston）湖畔美丽的西北大学校园游览。妈妈和 Sarah 参加招生导览；爸爸、Brooke 和爷爷奶奶按下方轻松的自助路线游览。傍晚入住酒店。",
+        en: "Land at O'Hare around 9am, pick up the rental car, and head to Northwestern's beautiful lakefront campus in Evanston. There's a morning for the easy self-guided walk, then the official campus tour from 12–1pm (everyone except the grandparents), followed by the Engineering (McCormick) school tour for Bridget and Sarah. The grandparents — and Brooke, during the engineering tour — rest at the air-conditioned Norris University Center by the lake. Check in at the hotel in the evening.",
+        zh: "上午9点左右抵达奥黑尔机场，取租车，前往埃文斯顿（Evanston）湖畔美丽的西北大学校园。上午可走下方轻松的自助路线；中午12–1点参加官方校园导览（除爷爷奶奶外全体参加），随后是 Bridget 和 Sarah 的工程学院（McCormick）专场导览。爷爷奶奶——以及工程导览期间的 Brooke——在湖边有空调的诺里斯学生中心（Norris）休息。傍晚入住酒店。",
       },
       transport: {
-        en: "Pick up the rental car at O'Hare (ORD). It's about a 30–40 min drive to Northwestern in Evanston. Park on campus, then about 15 min to the hotel in Northbrook in the evening.",
-        zh: "在奥黑尔机场（ORD）取租车，到埃文斯顿的西北大学约30–40分钟车程。在校园停车，傍晚再开约15分钟到诺斯布鲁克（Northbrook）的酒店。",
+        en: "Pick up the rental car at O'Hare (ORD). It's about a 30–40 min drive to Northwestern in Evanston. Park at the Segal Visitors Center or a nearby campus lot. Everything today is a short, flat walk; the grandparents' base at Norris is a 5-minute walk from the engineering building. About 15 min to the hotel in Northbrook in the evening.",
+        zh: "在奥黑尔机场（ORD）取租车，到埃文斯顿的西北大学约30–40分钟车程。停在西格尔访客中心或附近校园停车场。今天各处都是平坦的短途步行；爷爷奶奶在诺里斯中心的落脚点距工程楼步行约5分钟。傍晚再开约15分钟到诺斯布鲁克（Northbrook）的酒店。",
       },
-      sites: ["northwestern", "hotel"],
+      sites: ["northwestern", "nu-norris", "hotel"],
     },
     {
       id: "thu",
       label: { en: "Thu · Jul 9", zh: "周四 · 7月9日" },
       title: { en: "Day Trip to UIUC", zh: "伊利诺伊大学一日游" },
       summary: {
-        en: "An early start for the drive south to the University of Illinois Urbana-Champaign. Mom and Sarah take the admissions tour; Dad, Brooke and grandparents follow the flat, easy self-guided walk around the Main Quad. Lunch on campus, then drive back with a rest stop.",
-        zh: "一早出发南下，前往位于厄巴纳-香槟的伊利诺伊大学（UIUC）。妈妈和 Sarah 参加招生导览；爸爸、Brooke 和爷爷奶奶按下方平坦轻松的自助路线绕主四方庭院（Main Quad）游览。在校园午餐，之后驱车返回，途中休息一次。",
+        en: "An early start for the drive south to the University of Illinois Urbana-Champaign. Two tours today: a campus tour from 10–12:30 and an engineering tour from 1:30–3:45, with lunch in between. Brooke and the grandparents wait in the cool, comfortable Illini Union — food court, lounges and restrooms all indoors. They can also do a little of the flat Main Quad walk if they like. Drive back with a rest stop.",
+        zh: "一早出发南下，前往位于厄巴纳-香槟的伊利诺伊大学（UIUC）。今天有两场导览：上午10:00–12:30的校园导览，以及下午1:30–3:45的工程学院导览，中间午餐。Brooke 和爷爷奶奶在凉爽舒适的伊利尼联合楼（Illini Union）等候——美食广场、休息厅和洗手间都在室内。他们也可随意走一小段平坦的主四方庭院。返程途中休息一次。",
       },
       transport: {
-        en: "About 2h30 each way by car (≈140 miles). Leave by 7:30am to make the morning tour. Plan one rest stop each way. It's a long driving day — keep it calm and unhurried.",
-        zh: "单程约2小时30分（约140英里）。建议上午7:30前出发，赶上上午的导览。往返各安排一次休息。这是开车较多的一天——节奏放慢、不赶时间。",
+        en: "About 2h30 each way by car (≈140 miles). Leave by 7:00am to reach the 10am tour with time to park. Plan one rest stop each way. It's a long driving day — keep it calm and unhurried.",
+        zh: "单程约2小时30分（约140英里）。建议上午7:00前出发，留出停车时间赶上10点的导览。往返各安排一次休息。这是开车较多的一天——节奏放慢、不赶时间。",
       },
-      sites: ["uiuc", "rest-stop"],
+      sites: ["uiuc", "uiuc-wait", "rest-stop"],
     },
     {
       id: "fri",
       label: { en: "Fri · Jul 10", zh: "周五 · 7月10日" },
-      title: { en: "Downtown: Millennium Park & Art Institute", zh: "市区：千禧公园与艺术博物馆" },
+      title: { en: "University of Chicago & Botanic Garden", zh: "芝加哥大学与植物园" },
       summary: {
-        en: "Mom, Sarah and Brooke are at skating camp. Dad takes the grandparents downtown for the classic Chicago day — Cloud Gate ('The Bean'), the gardens of Millennium Park, a seated architecture river cruise, and the world-class Art Institute. Flat paths, plenty of benches.",
-        zh: "妈妈、Sarah 和 Brooke 参加滑冰营。爸爸带爷爷奶奶进城，体验经典的芝加哥一日——“云门”（俗称“豆子”）、千禧公园的花园、坐船游览的建筑游船，以及世界级的艺术博物馆。路面平坦，长椅众多。",
+        en: "A morning admissions tour at the University of Chicago in Hyde Park (8:30–11:30). The grandparents sleep in and rest at the hotel. Back in the afternoon, Brooke and Sarah start skating camp at 2:30. While they skate, Dad, Bridget and the grandparents enjoy a relaxed afternoon at the nearby Chicago Botanic Garden — flat paths, a narrated tram, cool greenhouses and a café. Nothing in the city for the grandparents today; it's an easy, local afternoon.",
+        zh: "上午参加芝加哥大学（海德公园校区）的招生导览（8:30–11:30）。爷爷奶奶睡到自然醒，在酒店休息。下午返回后，Brooke 和 Sarah 于2:30开始滑冰营。她们滑冰期间，爸爸、Bridget 和爷爷奶奶到附近的芝加哥植物园（Chicago Botanic Garden）度过轻松的下午——路面平坦、有讲解游览车、凉爽的温室和咖啡馆。今天不带爷爷奶奶进城，是一个轻松的本地下午。",
       },
       transport: {
-        en: "Drive ~40 min downtown and park at the Millennium Park Garage. Everything today is within a few flat blocks; the river cruise dock is a short, level walk along Michigan Avenue.",
-        zh: "驱车约40分钟进城，停在千禧公园停车楼（Millennium Park Garage）。今天所有景点都在几个平坦的街区之内；游船码头沿密歇根大道平路步行不远即到。",
+        en: "For the tour, drive ~45 min to Hyde Park and park in a University of Chicago visitor garage. Back to the hotel by early afternoon to drop the girls at camp (near Northbrook). The Botanic Garden is a 10-minute drive from the hotel in Glencoe, with a large, easy parking garage.",
+        zh: "参加导览时，开车约45分钟到海德公园，停在芝加哥大学的访客停车楼。下午早些回到酒店，送两个女孩去滑冰营（在诺斯布鲁克附近）。植物园在格伦科（Glencoe），距酒店约10分钟车程，有宽敞好停的停车楼。",
       },
-      sites: ["millennium-park", "river-cruise", "art-institute"],
+      sites: ["uchicago", "botanic-garden"],
     },
     {
       id: "sat",
       label: { en: "Sat · Jul 11", zh: "周六 · 7月11日" },
-      title: { en: "Museum Campus & Chinatown", zh: "博物馆园区与唐人街" },
+      title: { en: "River Cruise, Chinatown & Museum Campus", zh: "建筑游船、唐人街与博物馆园区" },
       summary: {
-        en: "A second skating-camp day. Dad and the grandparents enjoy the lakefront Museum Campus — the Field Museum and a grand skyline view — then a warm, familiar dim-sum lunch in Chinatown, just minutes away. Indoors and restful when it's hot.",
-        zh: "滑冰营第二天。爸爸和爷爷奶奶游览湖畔的博物馆园区——菲尔德自然史博物馆和壮丽的天际线景观——之后到几分钟车程外的唐人街吃一顿熟悉暖心的点心午餐。天热时室内凉爽、轻松休憩。",
+        en: "The girls are at skating camp, so Dad, Bridget and the grandparents have a full day downtown. First the booked architecture river cruise (arrive by 9:30 for the 10:00–11:30 departure) — 90 minutes fully seated on the water. Then a warm, familiar dim-sum lunch in Chinatown, and an easy afternoon at the lakefront Field Museum with its grand skyline view. Indoors and restful when it's hot.",
+        zh: "两个女孩在滑冰营，因此爸爸、Bridget 和爷爷奶奶有一整天在市区。先是已预订的建筑游船（10:00–11:30 发船，请9:30前到达）——90分钟全程坐在水上。之后到唐人街吃一顿熟悉暖心的点心午餐，再从容地游览湖畔的菲尔德博物馆及其壮丽的天际线景观。天热时室内凉爽、轻松休憩。",
       },
       transport: {
-        en: "Drive ~40 min to the Museum Campus and park in the Soldier Field garages. Chinatown is a 5-minute drive (or short cab) southwest, with its own parking.",
-        zh: "驱车约40分钟到博物馆园区，停在士兵球场（Soldier Field）停车楼。唐人街在西南方向约5分钟车程（或乘出租车），有自己的停车场。",
+        en: "Drive ~40 min downtown and park near the river dock (Michigan Avenue Bridge) — leave the hotel by ~8:30 to arrive by 9:30. After the cruise, Chinatown is a 5-minute drive south; the Field Museum's Museum Campus is 5 minutes from Chinatown, with parking in the Soldier Field garages.",
+        zh: "驱车约40分钟进城，停在游船码头（密歇根大道桥）附近——约8:30离开酒店，以便9:30前到达。游船结束后，唐人街在南面约5分钟车程；菲尔德博物馆所在的博物馆园区距唐人街5分钟，可停在士兵球场（Soldier Field）停车楼。",
       },
-      sites: ["field-museum", "chinatown"],
+      sites: ["river-cruise", "chinatown", "field-museum"],
     },
     {
       id: "sun",
       label: { en: "Sun · Jul 12", zh: "周日 · 7月12日" },
-      title: { en: "Fly Home", zh: "返程回家" },
+      title: { en: "Baha'i Temple & Fly Home", zh: "巴哈伊灵曦堂与返程" },
       summary: {
-        en: "Check out, return the rental car at O'Hare, and fly home. Allow extra time for the airport on a Sunday.",
-        zh: "退房，在奥黑尔机场还租车，乘机回家。周日机场较忙，请预留充裕时间。",
+        en: "A calm last morning. The girls finish skating camp in the afternoon, and the flight is at 6pm, so there's time for one gentle, local outing: the beautiful Baha'i House of Worship in nearby Wilmette — quiet gardens and a soaring domed temple, free to visit. Then pick up the girls, return the rental car at O'Hare, and fly home.",
+        zh: "宁静的最后一个上午。两个女孩下午结束滑冰营，航班在傍晚6点，因此还有时间安排一次轻松的本地出游：附近威尔米特（Wilmette）美丽的巴哈伊灵曦堂（Baha'i House of Worship）——宁静的花园与高耸的圆顶圣殿，免费参观。之后接上女孩，在奥黑尔机场还车，乘机回家。",
       },
       transport: {
-        en: "About 30–40 min from the hotel to O'Hare. Return the rental car at the airport. Aim to arrive at the airport about 2.5 hours before the flight.",
-        zh: "酒店到奥黑尔机场约30–40分钟。在机场归还租车。建议在航班起飞前约2.5小时抵达机场。",
+        en: "The Baha'i Temple is about 15 min from the hotel. Return to pick up the girls when camp ends, then it's about 30–40 min to O'Hare. Aim to arrive at the airport by ~3:30pm for the 6pm flight; return the rental car first.",
+        zh: "巴哈伊灵曦堂距酒店约15分钟。滑冰营结束后回来接女孩，再开约30–40分钟到奥黑尔机场。建议约下午3:30抵达机场，赶傍晚6点的航班；先归还租车。",
       },
-      sites: ["departure"],
+      sites: ["bahai-temple", "departure"],
     },
   ],
 
@@ -165,8 +165,8 @@ const TRIP = {
       walk: { en: "Easy & flat (about 1.5 miles, with rests).", zh: "轻松平坦（约1.5英里，可随时休息）。" },
       hours: { en: "Campus open daily; museum & buildings ~10am–5pm.", zh: "校园全天开放；博物馆与楼宇约10:00–17:00。" },
       tips: {
-        en: "Mom and Sarah's admissions tour starts at the Segal Visitors Center (1841 Sheridan Rd) — drop them there, where there is also visitor parking. The campus is flat with benches and shade. Norris University Center (stop 6) has restrooms, cafés and lake views — a great place to meet up and rest. For lunch, Norris or downtown Evanston's Davis Street are both easy.",
-        zh: "妈妈和 Sarah 的招生导览在西格尔访客中心（Segal Visitors Center，1841 Sheridan Rd）集合——把她们送到那里，那儿也有访客停车。校园平坦，长椅和树荫充足。诺里斯学生中心（第6站）有洗手间、咖啡馆和湖景，是会合和休息的好地方。午餐可选诺里斯中心或市区 Davis 街，都很方便。",
+        en: "The official campus tour (12–1pm) and the Engineering (McCormick) tour both start at the Segal Visitors Center (1841 Sheridan Rd), where there is visitor parking. Use the morning before noon for this flat self-guided loop. During the tours, the grandparents' base is Norris University Center by the lake (see its own card) — air-conditioned, with a food court, restrooms and benches; Brooke joins them there during the engineering tour. The engineering building (Technological Institute, 2145 Sheridan Rd) is a 5-minute flat walk from Norris.",
+        zh: "官方校园导览（12–1点）和工程学院（McCormick）导览都在西格尔访客中心（Segal Visitors Center，1841 Sheridan Rd）集合，那里有访客停车。中午之前的上午时段可走这条平坦的自助环线。导览期间，爷爷奶奶的落脚点是湖边的诺里斯学生中心（见其专属卡片）——有空调、美食广场、洗手间和长椅；工程导览期间 Brooke 也在那里陪他们。工程楼（Technological Institute，2145 Sheridan Rd）距诺里斯步行约5分钟平路。",
       },
       coords: [42.0560, -87.6740],
       mapQuery: "Northwestern University Segal Visitors Center, 1841 Sheridan Rd Evanston IL",
@@ -176,8 +176,8 @@ const TRIP = {
         { label: { en: "Parking: Segal Visitors Center Lot", zh: "停车：访客中心停车场" }, url: "https://maps.apple.com/?q=Northwestern%20Segal%20Visitors%20Center%20Parking&ll=42.0566,-87.6747" },
       ],
       tour: {
-        en: "Drop Mom and Sarah at the Segal Visitors Center (1841 Sheridan Rd) and park nearby. This flat loop hugs the lakeshore and uses the wide, level campus paths. Start at the Weber Arch, the grand campus gateway, then walk to the Gothic Deering Library and historic University Hall. Pause at the peaceful Shakespeare Garden and the painted Rock, then head to the lake: Norris University Center for restrooms, a snack and lake views, the Lakefill for the Chicago skyline, and the Block Museum of Art (free, indoor). The Dearborn Observatory is an optional final stop. Pick as many stops as your legs like — benches are everywhere.",
-        zh: "把妈妈和 Sarah 送到西格尔访客中心（1841 Sheridan Rd），就近停车。这条平坦的环线沿湖滨展开，走的都是宽阔平整的校园步道。从宏伟的校园门户韦伯拱门（Weber Arch）出发，走到哥特式的迪林图书馆（Deering Library）和历史悠久的大学楼（University Hall）。在宁静的莎士比亚花园和被涂满油漆的“岩石”（The Rock）稍作停留，再走向湖边：诺里斯学生中心有洗手间、点心和湖景，“湖滨地”可眺望芝加哥天际线，布洛克艺术博物馆（免费、室内）。迪尔伯恩天文台为可选的最后一站。体力允许就多看几处——长椅随处可见。",
+        en: "Park at the Segal Visitors Center (1841 Sheridan Rd). This flat loop hugs the lakeshore and uses the wide, level campus paths — a good way to fill the morning before the noon tour, and a gentle option for the grandparents too. Start at the Weber Arch, the grand campus gateway, then walk to the Gothic Deering Library and historic University Hall. Pause at the peaceful Shakespeare Garden and the painted Rock, then head to the lake: Norris University Center for restrooms, a snack and lake views, the Lakefill for the Chicago skyline, and the Block Museum of Art (free, indoor). The Dearborn Observatory is an optional final stop. Pick as many stops as your legs like — benches are everywhere.",
+        zh: "停在西格尔访客中心（1841 Sheridan Rd）。这条平坦的环线沿湖滨展开，走的都是宽阔平整的校园步道——很适合在中午导览前填满上午时光，也是爷爷奶奶的轻松之选。从宏伟的校园门户韦伯拱门（Weber Arch）出发，走到哥特式的迪林图书馆（Deering Library）和历史悠久的大学楼（University Hall）。在宁静的莎士比亚花园和被涂满油漆的“岩石”（The Rock）稍作停留，再走向湖边：诺里斯学生中心有洗手间、点心和湖景，“湖滨地”可眺望芝加哥天际线，布洛克艺术博物馆（免费、室内）。迪尔伯恩天文台为可选的最后一站。体力允许就多看几处——长椅随处可见。",
       },
       tourMapSvg: `<svg viewBox="0 0 360 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Northwestern walking tour map" font-family="-apple-system,Helvetica,Arial,sans-serif">
   <rect x="0" y="0" width="360" height="500" fill="#f4f1ea"/>
@@ -298,6 +298,43 @@ const TRIP = {
       mapQuery: "Renaissance Chicago North Shore Hotel, 933 Skokie Blvd Northbrook IL",
       mustSee: [],
     },
+    "nu-norris": {
+      emoji: "🍔",
+      name: { en: "Norris Center — grandparents' base", zh: "诺里斯中心 — 爷爷奶奶落脚点" },
+      area: { en: "Northwestern, on the lake", zh: "西北大学 · 湖边" },
+      summary: {
+        en: "A cool, comfortable food court by Lake Michigan — lunch and an easy place to wait.",
+        zh: "密歇根湖畔凉爽舒适的美食广场——吃午餐、轻松等候的好地方。",
+      },
+      intro: {
+        en: "Norris University Center is Northwestern's student center, right on Lake Michigan. It's the perfect base for the grandparents while the family is on the tours: air-conditioned, with a casual food court, plenty of indoor seating, clean restrooms, and big windows over the water. Have lunch here during the 12–1pm campus tour, then simply stay and relax through the engineering tour — Brooke joins you here.",
+        zh: "诺里斯学生中心是西北大学的学生活动中心，紧邻密歇根湖。当家人参加导览时，这里是爷爷奶奶理想的落脚点：有空调、设有休闲美食广场、大量室内座位、干净的洗手间，还有俯瞰湖面的大窗。可在12–1点的校园导览期间在此午餐，之后就留在这里休息，度过工程学院导览的时间——Brooke 也会来这里陪你们。",
+      },
+      story: {
+        en: "The food court is quick, casual and familiar — think burgers, deli sandwiches, pizza, a Starbucks and bubble tea, ordered at the counter and eaten at your own pace. It's cashless, so bring a card or phone to pay. Outside the big windows, the terrace looks straight across the water to the Chicago skyline. Summer hours can be shorter than the school year, so if it's quiet, the Segal Visitors Center or downtown Evanston (a short drive) are easy fallbacks for a bite and a sit-down.",
+        zh: "美食广场快捷、休闲又熟悉——有汉堡、三明治、披萨、星巴克和珍珠奶茶，在柜台点餐、按自己的节奏用餐。这里只收银行卡或手机支付，请备好卡或手机。大窗外的露台可隔水直望芝加哥天际线。夏季营业时间可能比学期内短，若太清静，西格尔访客中心或市区埃文斯顿（开车不远）都是吃点东西、坐下歇脚的便捷备选。",
+      },
+      walk: { en: "None — sit and relax; restrooms on site.", zh: "无需步行——坐下休息；设有洗手间。" },
+      hours: { en: "Food court midday; summer hours may be shorter.", zh: "美食广场中午营业；夏季时间可能较短。" },
+      tips: {
+        en: "Address: 1999 Campus Dr, Evanston. It's a 5-minute flat walk from the engineering building (Technological Institute, 2145 Sheridan Rd) and a short walk from the Segal Visitors Center. Payment is cashless — bring a card or phone. Get the grandparents settled with lunch before the family heads to the noon tour, and agree on a meeting time and spot.",
+        zh: "地址：1999 Campus Dr, Evanston。距工程楼（Technological Institute，2145 Sheridan Rd）步行约5分钟平路，离西格尔访客中心也很近。这里不收现金——请带卡或手机。在家人去参加中午导览前，先安顿好爷爷奶奶用午餐，并约好会合的时间和地点。",
+      },
+      coords: [42.0533, -87.6720],
+      mapQuery: "Norris University Center, 1999 Campus Dr Evanston IL",
+      links: [
+        { label: { en: "Norris University Center", zh: "诺里斯学生中心" }, url: "https://www.northwestern.edu/norris/" },
+        { label: { en: "Open in Apple Maps", zh: "用 Apple 地图打开" }, url: "https://maps.apple.com/?q=Norris%20University%20Center%20Evanston&ll=42.0533,-87.6720" },
+      ],
+      mustSee: [
+        { emoji: "🍔", img: "norris-foodcourt.jpg", link: "https://www.northwestern.edu/norris/retail-operations/dining.html",
+          caption: { en: "The food court", zh: "美食广场" },
+          desc: { en: "Casual counters — burgers, deli, pizza, Starbucks and bubble tea — with lots of indoor seating. Cashless; bring a card or phone.", zh: "休闲柜台——汉堡、三明治、披萨、星巴克和珍珠奶茶——室内座位充足。仅收卡或手机支付。" } },
+        { emoji: "🌆", img: "norris-lakeview.jpg", link: "https://www.northwestern.edu/norris/",
+          caption: { en: "Lakefront view", zh: "湖畔景观" },
+          desc: { en: "Big windows and a terrace looking across Lake Michigan to the Chicago skyline — a pleasant place to sit and wait.", zh: "大窗和露台隔着密歇根湖遥望芝加哥天际线——坐下等候十分惬意。" } },
+      ],
+    },
 
     /* ---------------------------------------------------------------- THU */
     uiuc: {
@@ -320,8 +357,8 @@ const TRIP = {
       walk: { en: "Easy & flat (about 1 mile, with rests).", zh: "轻松平坦（约1英里，可随时休息）。" },
       hours: { en: "Quad open daily; buildings & museum ~9am–5pm.", zh: "四方庭院全天开放；楼宇与博物馆约9:00–17:00。" },
       tips: {
-        en: "Mom and Sarah's admissions tour starts at the Illini Union (1401 W Green St). Park in the Illini Union parking garage right behind it. The Quad is flat with shade and benches. The Illini Union (stop 2) and Krannert Art Museum (stop 7) have restrooms and cool seating. For lunch, the Illini Union food court or Green Street ('Campustown') are both easy.",
-        zh: "妈妈和 Sarah 的招生导览在伊利尼联合楼（Illini Union，1401 W Green St）集合。把车停在它后方的联合楼停车库。四方庭院平坦，有树荫和长椅。伊利尼联合楼（第2站）和克兰纳特艺术博物馆（第7站）有洗手间和凉爽的座位。午餐可选联合楼美食广场或绿街（Green Street，校区商业街），都很方便。",
+        en: "Both tours today center on the Illini Union area (1401 W Green St); park in the Illini Union garage right behind it. The 10–12:30 campus tour and the 1:30–3:45 engineering tour leave time for lunch in between at the Illini Union food court or on Green Street ('Campustown'). Brooke and the grandparents wait at the Illini Union (see its own card) — cool lounges, food and restrooms indoors — and can stroll a little of the flat, shaded Quad if they like. The engineering buildings are a few flat blocks north of the Union.",
+        zh: "今天两场导览都以伊利尼联合楼一带（Illini Union，1401 W Green St）为中心；把车停在它后方的联合楼停车库。10:00–12:30 的校园导览与 1:30–3:45 的工程导览之间有午餐时间，可选联合楼美食广场或绿街（Green Street，校区商业街）。Brooke 和爷爷奶奶在伊利尼联合楼等候（见其专属卡片）——凉爽的休息厅、餐饮和洗手间都在室内——也可随意走一小段平坦、遮阴的四方庭院。工程楼群在联合楼以北几个平坦街区处。",
       },
       coords: [40.1095, -88.2272],
       mapQuery: "Illini Union, 1401 W Green St Urbana IL",
@@ -331,8 +368,8 @@ const TRIP = {
         { label: { en: "Parking: Illini Union Garage", zh: "停车：伊利尼联合楼停车库" }, url: "https://maps.apple.com/?q=Illini%20Union%20Parking%20Garage%20Champaign&ll=40.1101,-88.2272" },
       ],
       tour: {
-        en: "Drop Mom and Sarah at the Illini Union (1401 W Green St) and park in the garage behind it. This is a flat loop around the Main Quad. Start at the iconic Alma Mater statue on the corner, then step into the grand Illini Union. Walk the length of the shaded Main Quad to the domed Foellinger Auditorium at the south end. Detour to historic Altgeld Hall (listen for its chimes), see the small Morrow Plots cornfield, and finish at the free Krannert Art Museum. Memorial Stadium and the State Farm Center are an optional short drive away. Benches and shade line the whole route.",
-        zh: "把妈妈和 Sarah 送到伊利尼联合楼（1401 W Green St），停在其后方的停车库。这是一条绕主四方庭院的平坦环线。先到街角标志性的“母校”雕像（Alma Mater），再走进宏伟的伊利尼联合楼。沿绿荫覆盖的主四方庭院走到南端圆顶的弗林格礼堂（Foellinger Auditorium）。绕道去看历史悠久的阿尔特盖尔德楼（Altgeld Hall，听一听它的排钟），再看小小的莫罗试验田玉米地，最后到免费的克兰纳特艺术博物馆收尾。纪念体育场和 State Farm 中心可开车短途前往，作为可选项目。全程沿途都有长椅和树荫。",
+        en: "Park in the garage behind the Illini Union (1401 W Green St). This is a flat loop around the Main Quad — a pleasant way for Brooke and the grandparents to pass time between the tours. Start at the iconic Alma Mater statue on the corner, then step into the grand Illini Union. Walk the length of the shaded Main Quad to the domed Foellinger Auditorium at the south end. Detour to historic Altgeld Hall (listen for its chimes), see the small Morrow Plots cornfield, and finish at the free Krannert Art Museum. Memorial Stadium and the State Farm Center are an optional short drive away. Benches and shade line the whole route.",
+        zh: "停在伊利尼联合楼（1401 W Green St）后方的停车库。这是一条绕主四方庭院的平坦环线——是 Brooke 和爷爷奶奶在两场导览之间消磨时光的惬意方式。先到街角标志性的“母校”雕像（Alma Mater），再走进宏伟的伊利尼联合楼。沿绿荫覆盖的主四方庭院走到南端圆顶的弗林格礼堂（Foellinger Auditorium）。绕道去看历史悠久的阿尔特盖尔德楼（Altgeld Hall，听一听它的排钟），再看小小的莫罗试验田玉米地，最后到免费的克兰纳特艺术博物馆收尾。纪念体育场和 State Farm 中心可开车短途前往，作为可选项目。全程沿途都有长椅和树荫。",
       },
       tourMapSvg: `<svg viewBox="0 0 360 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="University of Illinois walking tour map" font-family="-apple-system,Helvetica,Arial,sans-serif">
   <rect x="0" y="0" width="360" height="500" fill="#f4f1ea"/>
@@ -417,6 +454,43 @@ const TRIP = {
           desc: { en: "The historic football stadium and the State Farm Center arena, home of the Fighting Illini — a short optional drive south of the Quad.", zh: "历史悠久的橄榄球场与 State Farm 中心球馆，“战斗伊利尼”的主场——在庭院以南，可开车短途前往。" } },
       ],
     },
+    "uiuc-wait": {
+      emoji: "🥤",
+      name: { en: "Illini Union — waiting spot", zh: "伊利尼联合楼 — 等候处" },
+      area: { en: "UIUC Main Quad", zh: "UIUC 主四方庭院" },
+      summary: {
+        en: "A cool, indoor student union — food, lounges and restrooms between the two tours.",
+        zh: "凉爽的室内学生联合楼——两场导览之间的餐饮、休息厅与洗手间。",
+      },
+      intro: {
+        en: "The Illini Union is the grand student center at the head of the Main Quad and the natural base for Brooke and the grandparents on the long UIUC day. It's air-conditioned with a food court, comfortable lounges, restrooms and a bookstore — an easy place to sit through the 10–12:30 tour, have lunch, and wait out the 1:30–3:45 engineering tour.",
+        zh: "伊利尼联合楼是主四方庭院北端宏伟的学生活动中心，是 Brooke 和爷爷奶奶在漫长的 UIUC 一日里天然的落脚点。这里有空调，设有美食广场、舒适的休息厅、洗手间和书店——是坐等10:00–12:30导览、用午餐、再等候1:30–3:45工程导览的轻松去处。",
+      },
+      story: {
+        en: "Built in 1941, the Illini Union sits right on the Main Quad, so if the grandparents feel like a short stroll, the flat, shaded green with the Alma Mater statue and historic halls is just outside the door. The food court has quick, familiar options; for a sit-down lunch between the tours, Green Street ('Campustown') just north is lined with restaurants. Lounges and benches are everywhere inside for an unhurried rest.",
+        zh: "伊利尼联合楼建于1941年，紧邻主四方庭院——若爷爷奶奶想散散步，门外就是平坦、遮阴的草坪，还有“母校”雕像和历史楼宇。美食广场有快捷、熟悉的选择；若想在两场导览间坐下好好吃顿午餐，北面的绿街（Green Street，校区商业街）餐馆林立。室内到处是休息厅和长椅，可从容歇息。",
+      },
+      walk: { en: "None needed — sit and relax; a flat Quad stroll is optional.", zh: "无需步行——坐下休息；平坦的庭院散步可选。" },
+      hours: { en: "Union open daily; food court midday.", zh: "联合楼每日开放；美食广场中午营业。" },
+      tips: {
+        en: "Address: 1401 W Green St, Urbana. Park in the Illini Union garage right behind the building so the grandparents have the shortest possible walk. Agree on a meeting spot in the main lounge and swap phone numbers before each tour. Keep water handy — it's a hot, long day.",
+        zh: "地址：1401 W Green St, Urbana。把车停在楼后的联合楼停车库，让爷爷奶奶步行距离最短。每场导览前约好在大休息厅的会合点并互留电话。备好饮用水——这一天既热又长。",
+      },
+      coords: [40.1093, -88.2277],
+      mapQuery: "Illini Union, 1401 W Green St Urbana IL",
+      links: [
+        { label: { en: "Illini Union", zh: "伊利尼联合楼" }, url: "https://union.illinois.edu/" },
+        { label: { en: "Open in Apple Maps", zh: "用 Apple 地图打开" }, url: "https://maps.apple.com/?q=Illini%20Union%20Urbana&ll=40.1093,-88.2277" },
+      ],
+      mustSee: [
+        { emoji: "🛋️", img: "union-lounge.jpg", link: "https://union.illinois.edu/",
+          caption: { en: "Indoor lounges", zh: "室内休息厅" },
+          desc: { en: "Comfortable, air-conditioned lounges and seating throughout — an easy place to rest for a couple of hours.", zh: "舒适、有空调的休息厅和座位遍布各处——歇上几个小时也很轻松。" } },
+        { emoji: "🍽️", img: "union-food.jpg", link: "https://union.illinois.edu/eat",
+          caption: { en: "Food court & lunch", zh: "美食广场与午餐" },
+          desc: { en: "Quick, familiar food inside, with restaurants along Green Street just north for a sit-down lunch between the two tours.", zh: "室内有快捷熟悉的餐饮，北面绿街还有餐馆，可在两场导览之间坐下用午餐。" } },
+      ],
+    },
     "rest-stop": {
       emoji: "⛽",
       name: { en: "Rest Stop on I-57", zh: "57号州际公路休息站" },
@@ -445,6 +519,92 @@ const TRIP = {
     },
 
     /* ---------------------------------------------------------------- FRI */
+    uchicago: {
+      emoji: "🏛️",
+      name: { en: "University of Chicago (morning tour)", zh: "芝加哥大学（上午导览）" },
+      area: { en: "Hyde Park, South Side", zh: "海德公园（南区）" },
+      summary: {
+        en: "A Gothic campus in Hyde Park — the morning admissions tour, 8:30–11:30.",
+        zh: "海德公园的哥特式校园——上午招生导览，8:30–11:30。",
+      },
+      intro: {
+        en: "The University of Chicago sits in leafy Hyde Park on the South Side, about 45 minutes from the hotel. Its ivy-covered Gothic quadrangles feel like an old European university. The morning admissions tour runs 8:30–11:30; the grandparents rest at the hotel today rather than making the long round trip.",
+        zh: "芝加哥大学坐落在南区绿意盎然的海德公园，距酒店约45分钟。其爬满常春藤的哥特式四方庭院宛如古老的欧洲学府。上午的招生导览时间为8:30–11:30；今天爷爷奶奶在酒店休息，不必来回奔波。",
+      },
+      story: {
+        en: "The University of Chicago was founded in 1890 with support from oil magnate John D. Rockefeller, who once called it the best investment he ever made. It opened in 1892 and quickly became one of the world's leading research universities.\n\nIts limestone Gothic campus, modeled on the colleges of Oxford and Cambridge, is arranged around a series of quadrangles. The university is famous for rigorous scholarship and for the 'Chicago school' of thought in fields from economics to sociology.\n\nThe campus made history in 1942 when, beneath the stands of an old football field, a team led by Enrico Fermi produced the world's first controlled, self-sustaining nuclear chain reaction — a moment now marked by Henry Moore's sculpture 'Nuclear Energy.' The university counts around 100 Nobel laureates among its faculty, researchers and alumni, one of the highest totals of any institution.\n\nHyde Park is also home to the neo-Gothic Rockefeller Memorial Chapel, the Frank Lloyd Wright–designed Robie House, and the Oriental Institute's collection of ancient Near Eastern treasures.",
+        zh: "芝加哥大学创立于1890年，得到石油大亨约翰·D·洛克菲勒的资助——他曾称之为一生中最好的投资。学校于1892年开学，很快跻身世界顶尖研究型大学之列。\n\n其石灰岩哥特式校园以牛津和剑桥的学院为蓝本，环绕一系列四方庭院布置。学校以严谨的学风以及从经济学到社会学的“芝加哥学派”思想而闻名。\n\n1942年，校园写下历史：在一座旧橄榄球场看台之下，恩里科·费米领导的团队实现了世界上首次受控、自持的核链式反应——如今由亨利·摩尔的雕塑《核能》（Nuclear Energy）纪念这一时刻。学校的教师、研究者与校友中约有100位诺贝尔奖得主，位居各机构前列。\n\n海德公园还有新哥特式的洛克菲勒纪念教堂、弗兰克·劳埃德·赖特设计的罗比之家（Robie House），以及东方研究所收藏的古代近东珍宝。",
+      },
+      storySrc: "https://en.wikipedia.org/wiki/University_of_Chicago",
+      walk: { en: "The tour covers a flat campus; wear comfortable shoes.", zh: "导览走平坦校园；请穿舒适的鞋。" },
+      hours: { en: "Admissions tour 8:30–11:30am (confirm your booking).", zh: "招生导览 8:30–11:30（请确认预订）。" },
+      tips: {
+        en: "Leave the hotel by ~7:30am to reach Hyde Park with time to park; the tour meets at the Office of College Admissions (Rosenwald Hall, 1101 E 58th St). Park in the Campus North or East 55th Street garage. Grab coffee near the quads beforehand. After the tour, drive back to the hotel to drop Brooke and Sarah at skating camp by 2:30.",
+        zh: "约7:30离开酒店，留出停车时间抵达海德公园；导览在招生办公室（Rosenwald Hall，1101 E 58th St）集合。停在校园北侧或东55街停车楼。可先在庭院附近买杯咖啡。导览结束后开车返回酒店，于2:30前送 Brooke 和 Sarah 去滑冰营。",
+      },
+      coords: [41.7886, -87.5987],
+      mapQuery: "University of Chicago Office of College Admissions, 1101 E 58th St Chicago",
+      links: [
+        { label: { en: "UChicago visit & tours", zh: "芝大参观与导览" }, url: "https://collegeadmissions.uchicago.edu/visit" },
+        { label: { en: "Parking: Campus North Garage", zh: "停车：校园北侧停车楼" }, url: "https://maps.apple.com/?q=University%20of%20Chicago%20Campus%20North%20Parking&ll=41.7920,-87.5990" },
+      ],
+      mustSee: [
+        { emoji: "🏛️", img: "uchicago-quad.jpg", link: "https://www.uchicago.edu/",
+          caption: { en: "The Gothic quadrangles", zh: "哥特式四方庭院" },
+          desc: { en: "Ivy-covered limestone courtyards modeled on Oxford and Cambridge — the beautiful heart of campus.", zh: "以牛津、剑桥为蓝本、爬满常春藤的石灰岩庭院——校园最美的核心。" } },
+        { emoji: "⛪", img: "uchicago-chapel.jpg", link: "https://rockefeller.uchicago.edu/",
+          caption: { en: "Rockefeller Chapel", zh: "洛克菲勒纪念教堂" },
+          desc: { en: "A soaring neo-Gothic chapel with a 72-bell carillon — the tallest building on campus.", zh: "高耸的新哥特式教堂，设有72钟的排钟——校园最高的建筑。" } },
+        { emoji: "⚛️", img: "uchicago-nuclear.jpg", link: "https://en.wikipedia.org/wiki/Nuclear_Energy_(sculpture)",
+          caption: { en: "'Nuclear Energy' sculpture", zh: "《核能》雕塑" },
+          desc: { en: "Henry Moore's bronze marks the site of the world's first controlled nuclear chain reaction (1942).", zh: "亨利·摩尔的青铜雕塑，标记世界首次受控核链式反应的发生地（1942年）。" } },
+      ],
+    },
+    "botanic-garden": {
+      emoji: "🌷",
+      name: { en: "Chicago Botanic Garden", zh: "芝加哥植物园" },
+      area: { en: "Glencoe (near the hotel)", zh: "格伦科（近酒店）" },
+      summary: {
+        en: "A relaxed, senior-friendly afternoon — flat paths, a narrated tram, and cool greenhouses.",
+        zh: "轻松、适合长者的下午——路面平坦、有讲解游览车与凉爽的温室。",
+      },
+      intro: {
+        en: "While the girls are at skating camp, the Chicago Botanic Garden is a gentle, beautiful afternoon just 10 minutes from the hotel. It spreads across 385 acres of islands, lakes and gardens with wide, flat paved paths and benches everywhere. A narrated tram means no one has to walk far, and the greenhouses and café are pleasantly air-conditioned.",
+        zh: "两个女孩在滑冰营期间，芝加哥植物园是距酒店仅10分钟、温柔又美丽的下午去处。它占地385英亩，由岛屿、湖泊和花园组成，铺装步道宽阔平坦，长椅随处可见。有讲解的游览车让人无需远行，温室和咖啡馆则清凉宜人。",
+      },
+      story: {
+        en: "The Chicago Botanic Garden opened in 1972 in Glencoe, just north of Northbrook, and has grown into one of the most-visited public gardens in the United States. It is really a chain of nine islands set among lakes, linked by bridges and gentle paths.\n\nAmong its favorite areas are the tranquil Japanese Garden ('Sansho-En,' the Garden of Three Islands), the English Walled Garden, the Rose Garden, the Waterfall Garden, and a large greenhouse complex. A working fruit-and-vegetable garden and a prairie round out the grounds.\n\nBeyond its beauty, the Garden is a serious center for plant science and conservation, with laboratories and one of the country's leading programs for training plant scientists.\n\nFor a relaxed visit, the narrated Grand Tram Tour (about 35 minutes) circles the islands and is an easy, seated way to see the highlights — a comfortable choice on a warm afternoon.",
+        zh: "芝加哥植物园于1972年在诺斯布鲁克以北的格伦科开放，如今已成为全美最受欢迎的公共花园之一。它其实是散落在湖中、由桥梁和平缓步道相连的九座岛屿。\n\n最受喜爱的区域包括宁静的日本庭园（“三松园”，三岛之园）、英式围墙花园、玫瑰园、瀑布花园，以及一处大型温室群。园中还有一片可耕作的果蔬园和一片草原。\n\n除了美景，植物园也是植物科学与保育的重要中心，设有实验室，并拥有全美领先的植物科学人才培养项目之一。\n\n若想轻松游览，有讲解的“大游览车”（Grand Tram Tour，约35分钟）绕岛一周，是坐着看遍亮点的轻松方式——炎热的下午尤为舒适。",
+      },
+      storySrc: "https://en.wikipedia.org/wiki/Chicago_Botanic_Garden",
+      walk: { en: "As much or as little as you like; flat paths, or ride the tram.", zh: "多走少走随意；路面平坦，也可乘游览车。" },
+      hours: { en: "Garden open daily to 8pm in summer; tram runs May–Oct.", zh: "夏季每日开放至20:00；游览车5–10月运营。" },
+      tips: {
+        en: "Address: 1000 Lake Cook Rd, Glencoe. Admission is free, but parking is charged per car — a large, easy garage is right at the entrance. Do the narrated Grand Tram Tour first (small fee, senior discount) to see the whole garden seated, then walk the areas you liked, such as the Japanese Garden. The Garden View Café and the greenhouses are cool spots to rest. Bring a hat and water.",
+        zh: "地址：1000 Lake Cook Rd, Glencoe。入园免费，但按车收停车费——入口处就有宽敞好停的停车楼。建议先坐有讲解的“大游览车”（小额收费，长者有优惠）坐着看遍全园，再步行去喜欢的区域，比如日本庭园。花园景观咖啡馆（Garden View Café）和温室都是凉爽的歇脚处。请带帽子和水。",
+      },
+      coords: [42.1489, -87.7896],
+      mapQuery: "Chicago Botanic Garden, 1000 Lake Cook Rd Glencoe IL",
+      links: [
+        { label: { en: "Chicago Botanic Garden", zh: "芝加哥植物园官网" }, url: "https://www.chicagobotanic.org/visit" },
+        { label: { en: "Grand Tram Tours", zh: "大游览车" }, url: "https://www.chicagobotanic.org/tram" },
+        { label: { en: "Open in Apple Maps", zh: "用 Apple 地图打开" }, url: "https://maps.apple.com/?q=Chicago%20Botanic%20Garden&ll=42.1489,-87.7896" },
+      ],
+      mustSee: [
+        { emoji: "🚋", img: "botanic-tram.jpg", link: "https://www.chicagobotanic.org/tram",
+          caption: { en: "Grand Tram Tour", zh: "大游览车" },
+          desc: { en: "A narrated 35-minute ride around the islands — a comfortable, fully seated way to see the whole garden. Senior discount.", zh: "约35分钟的讲解环岛游览——舒适、全程坐着看遍全园。长者有优惠。" } },
+        { emoji: "⛩️", img: "botanic-japanese.jpg", link: "https://www.chicagobotanic.org/gardens/japanese",
+          caption: { en: "Japanese Garden", zh: "日本庭园" },
+          desc: { en: "'Sansho-En,' the serene Garden of Three Islands, with bridges, pruned pines and still water — beautifully calm.", zh: "“三松园”——宁静的三岛之园，有桥梁、修剪的松树与静水——安宁怡人。" } },
+        { emoji: "🌺", img: "botanic-greenhouse.jpg", link: "https://www.chicagobotanic.org/gardens/greenhouses",
+          caption: { en: "The greenhouses", zh: "温室" },
+          desc: { en: "Cool, air-conditioned glasshouses of tropical plants, desert cacti and orchids — a restful stop out of the sun.", zh: "凉爽有空调的玻璃温室，展示热带植物、沙漠仙人掌与兰花——避开烈日的休憩之地。" } },
+        { emoji: "☕", img: "botanic-cafe.jpg", link: "https://www.chicagobotanic.org/visit/food",
+          caption: { en: "Garden View Café", zh: "花园景观咖啡馆" },
+          desc: { en: "An indoor café overlooking the water for a snack, a cold drink and a comfortable sit-down.", zh: "俯瞰水面的室内咖啡馆，可吃点心、喝冷饮、舒服地坐一坐。" } },
+      ],
+    },
     "millennium-park": {
       emoji: "🫘",
       name: { en: "Millennium Park & Cloud Gate", zh: "千禧公园与云门" },
@@ -553,8 +713,8 @@ const TRIP = {
       name: { en: "Architecture River Cruise", zh: "建筑游船" },
       area: { en: "Chicago River, Downtown", zh: "芝加哥河，市中心" },
       summary: {
-        en: "A 90-minute seated boat tour — no walking, and the best way to see the skyline.",
-        zh: "90分钟全程坐着的游船——无需步行，是欣赏天际线的最佳方式。",
+        en: "Booked for Saturday: a 90-minute seated boat tour — no walking, and the best way to see the skyline.",
+        zh: "已预订周六班次：90分钟全程坐着的游船——无需步行，是欣赏天际线的最佳方式。",
       },
       intro: {
         en: "Chicago's famous architecture boat tour glides along the river through the heart of downtown while a guide explains the skyscrapers. It's fully seated and shaded, with a gentle step on and off — a relaxing, senior-friendly highlight with no walking at all.",
@@ -566,10 +726,10 @@ const TRIP = {
       },
       storySrc: "https://en.wikipedia.org/wiki/Chicago_River",
       walk: { en: "Zero walking — fully seated, 90 minutes.", zh: "完全无需步行——全程坐着，90分钟。" },
-      hours: { en: "Departs through the day, spring–fall.", zh: "春至秋季全天多班次发船。" },
+      hours: { en: "Our cruise: Sat Jul 11, 10:00–11:30am. Arrive by 9:30am.", zh: "我们的班次：7月11日周六 10:00–11:30。请9:30前到达。" },
       tips: {
-        en: "Book ahead online and pick a departure with a short, level walk from where you park (docks sit at the Michigan Avenue Bridge, near Millennium Park). The Chicago Architecture Center tours have the best guides. Boats are shaded and seated; staff help with boarding. Bring a light jacket — it can be breezy on the water.",
-        zh: "建议提前网上订票，并选择离停车处只需一小段平路的班次（码头在密歇根大道桥，靠近千禧公园）。芝加哥建筑中心的游览导览最佳。船上有遮阳和座位，工作人员协助上船。带件薄外套——水上可能有风。",
+        en: "This is booked for Saturday, 10:00–11:30am — arrive at the dock by 9:30 to check in and board without rushing (leave the hotel by ~8:30). The dock is at the Michigan Avenue Bridge; park in a garage nearby and it's a short, level walk. Boats are shaded and seated, and staff help with boarding. Bring a light jacket — it can be breezy on the water. Have the confirmation/tickets ready on your phone.",
+        zh: "已预订周六 10:00–11:30 的班次——请9:30前到达码头，从容办理登船（约8:30离开酒店）。码头在密歇根大道桥；就近停在停车楼，步行一小段平路即到。船上有遮阳和座位，工作人员协助上船。带件薄外套——水上可能有风。请在手机上备好订票确认/电子票。",
       },
       coords: [41.8881, -87.6249],
       mapQuery: "Chicago Architecture Center River Cruise dock, 112 E Wacker Dr Chicago",
@@ -781,6 +941,47 @@ const TRIP = {
     },
 
     /* ---------------------------------------------------------------- SUN */
+    "bahai-temple": {
+      emoji: "🕌",
+      name: { en: "Baha'i House of Worship", zh: "巴哈伊灵曦堂" },
+      area: { en: "Wilmette (near the hotel)", zh: "威尔米特（近酒店）" },
+      summary: {
+        en: "A serene domed temple and gardens by the lake — a calm, free last-morning stop.",
+        zh: "湖畔宁静的圆顶圣殿与花园——宁静、免费的最后一个上午。",
+      },
+      intro: {
+        en: "About 15 minutes from the hotel, the Baha'i House of Worship in Wilmette is one of the most beautiful and peaceful places on Chicago's North Shore. A gleaming white nine-sided dome rises above formal gardens and fountains, open to visitors of every background, free of charge. It's a gentle, unhurried way to spend the last morning before the flight.",
+        zh: "距酒店约15分钟，威尔米特的巴哈伊灵曦堂是芝加哥北岸最美丽、最宁静的地方之一。洁白闪耀的九面圆顶高踞于规整的花园与喷泉之上，向各种背景的访客免费开放。这是航班前最后一个上午轻松从容的好去处。",
+      },
+      story: {
+        en: "The Baha'i House of Worship in Wilmette is the oldest surviving Baha'i temple in the world and the only one in the United States. Its cornerstone was laid in 1912 and the building was dedicated in 1953, after decades of work.\n\nLike all Baha'i Houses of Worship, it has nine sides and nine entrances, symbolizing the unity of humanity and the welcome of people from all directions and all faiths. The intricate white surface, cast in concrete with clear and white quartz, is covered in lace-like patterns that weave together symbols of the world's great religions.\n\nInside, a quiet domed auditorium rises nearly 140 feet, with no clergy, sermons or rituals — just a peaceful space for prayer and reflection, open to all. Formal gardens with fountains radiate from each of the nine sides.\n\nThe temple sits near the shore of Lake Michigan and is one of the architectural landmarks of the Chicago area, welcoming visitors of every belief to sit quietly, walk the gardens, and admire the craftsmanship.",
+        zh: "威尔米特的巴哈伊灵曦堂是世界上现存最古老的巴哈伊圣殿，也是美国唯一的一座。其奠基石于1912年安放，历经数十年建造，于1953年落成启用。\n\n与所有巴哈伊灵曦堂一样，它有九个面和九个入口，象征人类的统一，以及对来自四面八方、各种信仰之人的欢迎。洁白的表面以混凝土掺入透明和白色石英浇筑，覆盖着蕾丝般精细的花纹，交织着世界各大宗教的符号。\n\n殿内，宁静的圆顶大厅高近140英尺，没有神职人员、布道或仪式——只是一处向所有人开放、供祈祷与省思的安宁空间。规整的花园与喷泉自九个面向外舒展。\n\n圣殿临近密歇根湖畔，是芝加哥地区的建筑地标之一，欢迎各种信仰的访客静坐、漫步花园、欣赏其工艺。",
+      },
+      storySrc: "https://en.wikipedia.org/wiki/Bah%C3%A1%CA%BC%C3%AD_House_of_Worship_(Wilmette,_Illinois)",
+      walk: { en: "Very gentle — flat gardens and a step-free auditorium.", zh: "非常轻松——平坦的花园与无台阶的大厅。" },
+      hours: { en: "Open daily 6am–6pm; admission free.", zh: "每日6:00–18:00开放；免费入场。" },
+      tips: {
+        en: "Address: 100 Linden Ave, Wilmette. Free on-site parking. Dress is casual but respectful; keep voices low inside the auditorium. The visitor center below the temple has restrooms and a short film. Keep the visit relaxed and leave in time to pick up the girls from camp and return the car at O'Hare before the 6pm flight.",
+        zh: "地址：100 Linden Ave, Wilmette。现场免费停车。着装随意但需得体；在大厅内请轻声。圣殿下方的访客中心有洗手间和一部短片。参观从容即可，并留足时间去滑冰营接女孩、在傍晚6点航班前于奥黑尔还车。",
+      },
+      coords: [42.0741, -87.6856],
+      mapQuery: "Baha'i House of Worship, 100 Linden Ave Wilmette IL",
+      links: [
+        { label: { en: "Baha'i House of Worship", zh: "巴哈伊灵曦堂" }, url: "https://www.bahai.us/bahai-temple/" },
+        { label: { en: "Open in Apple Maps", zh: "用 Apple 地图打开" }, url: "https://maps.apple.com/?q=Baha'i%20House%20of%20Worship%20Wilmette&ll=42.0741,-87.6856" },
+      ],
+      mustSee: [
+        { emoji: "🕌", img: "bahai-dome.jpg", link: "https://www.bahai.us/bahai-temple/",
+          caption: { en: "The nine-sided dome", zh: "九面圆顶" },
+          desc: { en: "A gleaming white temple with nine sides and nine entrances, covered in lace-like carved patterns — striking from every angle.", zh: "洁白闪耀的圣殿，有九面九门，覆盖着蕾丝般的雕花——从任何角度看都令人惊叹。" } },
+        { emoji: "⛲", img: "bahai-gardens.jpg", link: "https://www.bahai.us/bahai-temple/",
+          caption: { en: "The gardens & fountains", zh: "花园与喷泉" },
+          desc: { en: "Formal gardens with fountains radiate from each of the nine sides — flat paths and benches for a quiet stroll.", zh: "规整的花园与喷泉自九个面舒展——平坦的步道与长椅，宜静静漫步。" } },
+        { emoji: "🙏", img: "bahai-interior.jpg", link: "https://www.bahai.us/bahai-temple/",
+          caption: { en: "The quiet auditorium", zh: "宁静的大厅" },
+          desc: { en: "A soaring, peaceful domed hall open to all — a calm place to sit for a few minutes. No rituals or services required.", zh: "高耸宁静、向所有人开放的圆顶大厅——静坐片刻的安宁之地。无需仪式或礼拜。" } },
+      ],
+    },
     departure: {
       emoji: "✈️",
       name: { en: "Departure — O'Hare Airport", zh: "返程 — 奥黑尔机场" },
@@ -825,36 +1026,52 @@ const TRIP = {
         mapQuery: "Renaissance Chicago North Shore Hotel, 933 Skokie Blvd Northbrook IL",
       },
       {
-        title: { en: "✈️ Arrival (Wed Jul 8)", zh: "✈️ 抵达（7月8日 周三）" },
+        title: { en: "✈️ Arrival & Northwestern (Wed Jul 8)", zh: "✈️ 抵达与西北大学（7月8日 周三）" },
         body: {
-          en: "United flight UA 2800 lands at O'Hare (ORD) around 9am. Pick up the rental car at the airport, then drive ~35 min to Northwestern in Evanston for the day. Check in at the hotel in the evening.",
-          zh: "美联航 UA 2800 航班于上午9点左右抵达奥黑尔机场（ORD）。在机场取租车，再开约35分钟到埃文斯顿的西北大学，白天在那里游览。傍晚入住酒店。",
+          en: "United flight UA 2800 lands at O'Hare (ORD) around 9am. Pick up the rental car, then drive ~35 min to Northwestern in Evanston. Official campus tour 12–1pm (everyone except the grandparents), then the Engineering (McCormick) tour for Bridget and Sarah. The grandparents — and Brooke, during the engineering tour — wait at the air-conditioned Norris University Center. Check in at the hotel in the evening.",
+          zh: "美联航 UA 2800 航班于上午9点左右抵达奥黑尔机场（ORD）。取租车后开约35分钟到埃文斯顿的西北大学。中午12–1点官方校园导览（除爷爷奶奶外全体参加），随后是 Bridget 和 Sarah 的工程学院（McCormick）导览。爷爷奶奶——以及工程导览期间的 Brooke——在有空调的诺里斯学生中心等候。傍晚入住酒店。",
         },
-        mapQuery: "O'Hare International Airport rental car",
+        mapQuery: "Norris University Center, 1999 Campus Dr Evanston IL",
       },
       {
         title: { en: "🚗 UIUC Day Trip (Thu Jul 9)", zh: "🚗 伊利诺伊大学一日游（7月9日 周四）" },
         body: {
-          en: "About 2h30 each way (≈140 miles, mostly I-57). Leave by 7:30am for the morning admissions tour. Plan one rest stop each way at an Illinois highway oasis. Keep water and snacks in the car and don't rush — it's a long driving day for the grandparents.",
-          zh: "单程约2小时30分（约140英里，主要走57号州际公路）。建议上午7:30前出发，赶上上午的招生导览。往返各在伊利诺伊高速“绿洲”服务区休息一次。车上备好水和零食，不要赶路——对爷爷奶奶来说这是开车较多的一天。",
+          en: "About 2h30 each way (≈140 miles, mostly I-57). Two tours: campus 10–12:30 and engineering 1:30–3:45, lunch in between. Leave by 7:00am to park before the 10am start. Brooke and the grandparents wait at the cool Illini Union. Plan one rest stop each way at an Illinois highway oasis; keep water and snacks in the car and don't rush.",
+          zh: "单程约2小时30分（约140英里，主要走57号州际公路）。两场导览：校园10:00–12:30、工程1:30–3:45，中间午餐。建议上午7:00前出发，在10点开始前停好车。Brooke 和爷爷奶奶在凉爽的伊利尼联合楼等候。往返各在伊利诺伊高速“绿洲”服务区休息一次；车上备好水和零食，不要赶路。",
         },
-        mapQuery: "University of Illinois Urbana-Champaign",
+        mapQuery: "Illini Union, 1401 W Green St Urbana IL",
       },
       {
-        title: { en: "⛸️ Skating Camp (Fri–Sat Jul 10–11)", zh: "⛸️ 滑冰营（7月10–11日 周五至周六）" },
+        title: { en: "🎓 UChicago & Botanic Garden (Fri Jul 10)", zh: "🎓 芝加哥大学与植物园（7月10日 周五）" },
         body: {
-          en: "Mom, Sarah and Brooke are at skating camp both days. Drop them off in the morning, then Dad takes the grandparents into the city (see the Friday and Saturday plans). Confirm the camp's drop-off and pick-up times the day before.",
-          zh: "妈妈、Sarah 和 Brooke 两天都参加滑冰营。上午送她们过去，之后爸爸带爷爷奶奶进城（见周五和周六的安排）。请提前一天确认滑冰营的接送时间。",
+          en: "Morning admissions tour at the University of Chicago in Hyde Park, 8:30–11:30 (leave the hotel ~7:30; grandparents rest at the hotel). Back by early afternoon to drop Brooke and Sarah at skating camp by 2:30. Then a relaxed afternoon at the Chicago Botanic Garden in Glencoe, 10 min from the hotel.",
+          zh: "上午在海德公园参加芝加哥大学招生导览，8:30–11:30（约7:30离开酒店；爷爷奶奶在酒店休息）。下午早些回来，于2:30前送 Brooke 和 Sarah 去滑冰营。随后到格伦科的芝加哥植物园度过轻松的下午，距酒店10分钟。",
+        },
+        mapQuery: "University of Chicago, 5801 S Ellis Ave Chicago",
+      },
+      {
+        title: { en: "⛸️ Skating Camp (Fri 2:30 – Sun)", zh: "⛸️ 滑冰营（周五2:30 – 周日）" },
+        body: {
+          en: "Brooke and Sarah's skating camp runs from Friday 2:30pm through Sunday afternoon, near Northbrook. This frees Dad, Bridget and the grandparents for the Saturday river cruise and downtown, and a gentle Sunday-morning outing. Confirm exact drop-off and pick-up times the day before, and check when camp ends Sunday so you can leave for the airport in good time.",
+          zh: "Brooke 和 Sarah 的滑冰营从周五下午2:30持续到周日下午，地点在诺斯布鲁克附近。这样爸爸、Bridget 和爷爷奶奶就能在周六游船与进城，以及周日上午轻松出游。请提前一天确认接送时间，并确认周日滑冰营的结束时间，以便从容出发去机场。",
         },
         mapQuery: "",
       },
       {
-        title: { en: "🅿️ Downtown Parking", zh: "🅿️ 市区停车" },
+        title: { en: "🚤 Saturday Downtown (Sat Jul 11)", zh: "🚤 周六进城（7月11日 周六）" },
         body: {
-          en: "Friday: Millennium Park Garage, under the park. Saturday: Soldier Field North Garage at the Museum Campus, and the Chinatown Square lot off Archer Ave. Booking a spot ahead on a parking app is often cheaper.",
-          zh: "周五：公园下方的千禧公园停车楼。周六：博物馆园区的士兵球场北侧停车楼，以及阿彻大道旁的华埠广场停车场。提前用停车 App 预订车位通常更便宜。",
+          en: "Booked architecture river cruise 10:00–11:30am — arrive at the Michigan Avenue Bridge dock by 9:30 (leave the hotel ~8:30). Park in a garage near the dock. Then Chinatown for dim sum (Chinatown Square lot off Archer Ave), and the Field Museum / Museum Campus (Soldier Field North Garage). Have the cruise tickets ready on your phone.",
+          zh: "已预订建筑游船 10:00–11:30——请9:30前到达密歇根大道桥码头（约8:30离开酒店）。就近停在码头附近的停车楼。之后到唐人街吃点心（阿彻大道旁的华埠广场停车场），再去菲尔德博物馆／博物馆园区（士兵球场北侧停车楼）。请在手机上备好游船电子票。",
         },
-        mapQuery: "Millennium Park Garage Chicago",
+        mapQuery: "Chicago Architecture Center River Cruise dock, 112 E Wacker Dr Chicago",
+      },
+      {
+        title: { en: "🕌 Sunday & Departure (Sun Jul 12)", zh: "🕌 周日与返程（7月12日 周日）" },
+        body: {
+          en: "A gentle morning at the Baha'i House of Worship in Wilmette (100 Linden Ave, ~15 min, free). Pick up the girls when camp ends in the afternoon, fill the gas tank, return the rental car at O'Hare, and arrive by ~3:30pm for the 6pm flight.",
+          zh: "上午轻松游览威尔米特的巴哈伊灵曦堂（100 Linden Ave，约15分钟，免费）。下午滑冰营结束后接上女孩，加满油，在奥黑尔机场还车，约下午3:30抵达机场赶傍晚6点的航班。",
+        },
+        mapQuery: "Baha'i House of Worship, 100 Linden Ave Wilmette IL",
       },
       {
         title: { en: "👵 Senior-Friendly Tips", zh: "👵 长者贴士" },
