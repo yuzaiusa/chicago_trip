@@ -36,8 +36,8 @@ overwrite the file with the same name.
 - `uchicago-nuclear.jpg` — "Nuclear Energy" sculpture (Henry Moore)
 
 ## Fri — Chicago Botanic Garden (Glencoe)
-- `botanic-tram.jpg` — Grand Tram Tour
-- `botanic-japanese.jpg` — Japanese Garden (Sansho-En)
+- `botanic-lake.jpg` — Esplanade / North Lake & fountain (tram highlights)
+- `botanic-japanese.jpg` — Japanese Garden (Sansho-En arched bridge)
 - `botanic-greenhouse.jpg` — the greenhouses
 - `botanic-cafe.jpg` — Garden View Café
 

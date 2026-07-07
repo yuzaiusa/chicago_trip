@@ -591,9 +591,9 @@ const TRIP = {
         { label: { en: "Open in Apple Maps", zh: "用 Apple 地图打开" }, url: "https://maps.apple.com/?q=Chicago%20Botanic%20Garden&ll=42.1489,-87.7896" },
       ],
       mustSee: [
-        { emoji: "🚋", img: "botanic-tram.jpg", link: "https://www.chicagobotanic.org/tram",
-          caption: { en: "Grand Tram Tour", zh: "大游览车" },
-          desc: { en: "A narrated 35-minute ride around the islands — a comfortable, fully seated way to see the whole garden. Senior discount.", zh: "约35分钟的讲解环岛游览——舒适、全程坐着看遍全园。长者有优惠。" } },
+        { emoji: "🚋", img: "botanic-lake.jpg", link: "https://www.chicagobotanic.org/tram",
+          caption: { en: "Lakes, islands & the Grand Tram", zh: "湖泊、岛屿与大游览车" },
+          desc: { en: "The garden is a chain of islands and lakes dotted with fountains. A narrated 35-minute tram loops it all — a comfortable, fully seated way to see the highlights. Senior discount.", zh: "植物园是一串点缀着喷泉的岛屿与湖泊。约35分钟的讲解游览车绕行全园——舒适、全程坐着看遍亮点。长者有优惠。" } },
         { emoji: "⛩️", img: "botanic-japanese.jpg", link: "https://www.chicagobotanic.org/gardens/japanese",
           caption: { en: "Japanese Garden", zh: "日本庭园" },
           desc: { en: "'Sansho-En,' the serene Garden of Three Islands, with bridges, pruned pines and still water — beautifully calm.", zh: "“三松园”——宁静的三岛之园，有桥梁、修剪的松树与静水——安宁怡人。" } },
