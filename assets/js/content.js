@@ -90,14 +90,14 @@ const TRIP = {
       label: { en: "Thu · Jul 9", zh: "周四 · 7月9日" },
       title: { en: "Day Trip to UIUC", zh: "伊利诺伊大学一日游" },
       summary: {
-        en: "An early start for the drive south to the University of Illinois Urbana-Champaign. Two tours today: a campus tour from 10–12:30 and an engineering tour from 1:30–3:45, with lunch in between. Brooke and the grandparents wait in the cool, comfortable Illini Union — food court, lounges and restrooms all indoors. They can also do a little of the flat Main Quad walk if they like. Drive back with a rest stop.",
-        zh: "一早出发南下，前往位于厄巴纳-香槟的伊利诺伊大学（UIUC）。今天有两场导览：上午10:00–12:30的校园导览，以及下午1:30–3:45的工程学院导览，中间午餐。Brooke 和爷爷奶奶在凉爽舒适的伊利尼联合楼（Illini Union）等候——美食广场、休息厅和洗手间都在室内。他们也可随意走一小段平坦的主四方庭院。返程途中休息一次。",
+        en: "An early start for the drive south to the University of Illinois Urbana-Champaign. Two tours today: a campus tour from 10–12:30 and an engineering tour from 1:30–3:45, with lunch in between. Brooke and the grandparents wait in the cool, comfortable Illini Union — food court, lounges and restrooms all indoors. They can also do a little of the flat Main Quad walk if they like. Along the way, two personal stops: the aerospace engineering building where Dad studied, and Dad's old student apartment nearby. Drive back with a rest stop.",
+        zh: "一早出发南下，前往位于厄巴纳-香槟的伊利诺伊大学（UIUC）。今天有两场导览：上午10:00–12:30的校园导览，以及下午1:30–3:45的工程学院导览，中间午餐。Brooke 和爷爷奶奶在凉爽舒适的伊利尼联合楼（Illini Union）等候——美食广场、休息厅和洗手间都在室内。他们也可随意走一小段平坦的主四方庭院。途中还有两处特别的停留：爸爸求学的航空航天工程系馆，以及附近爸爸当年的学生住处。返程途中休息一次。",
       },
       transport: {
         en: "About 2h30 each way by car (≈140 miles). Leave by 7:00am to reach the 10am tour with time to park. Plan one rest stop each way. It's a long driving day — keep it calm and unhurried.",
         zh: "单程约2小时30分（约140英里）。建议上午7:00前出发，留出停车时间赶上10点的导览。往返各安排一次休息。这是开车较多的一天——节奏放慢、不赶时间。",
       },
-      sites: ["uiuc", "uiuc-wait", "rest-stop"],
+      sites: ["uiuc", "uiuc-aerospace", "uiuc-apartment", "uiuc-wait", "rest-stop"],
     },
     {
       id: "fri",
@@ -453,6 +453,66 @@ const TRIP = {
           caption: { en: "8. Memorial Stadium (optional)", zh: "8. 纪念体育场（可选）" },
           desc: { en: "The historic football stadium and the State Farm Center arena, home of the Fighting Illini — a short optional drive south of the Quad.", zh: "历史悠久的橄榄球场与 State Farm 中心球馆，“战斗伊利尼”的主场——在庭院以南，可开车短途前往。" } },
       ],
+    },
+    "uiuc-aerospace": {
+      emoji: "🚀",
+      name: { en: "Aerospace Engineering — where Dad studied", zh: "航空航天工程系 —— 爸爸求学之地" },
+      area: { en: "Talbot Laboratory, UIUC", zh: "UIUC 塔尔博特实验楼" },
+      summary: {
+        en: "A special stop — the department where Dad earned his aerospace engineering degree.",
+        zh: "一处特别的停留——爸爸取得航空航天工程学位的系馆。",
+      },
+      intro: {
+        en: "The Department of Aerospace Engineering is housed in Talbot Laboratory at 104 S Wright St, right on the edge of the Main Quad. This is where Dad spent his student days — a chance for Sarah, Brooke and the grandparents to see it and take a photo together.",
+        zh: "航空航天工程系坐落于莱特街（Wright St）104号的塔尔博特实验楼（Talbot Laboratory），就在主四方庭院旁。这里是爸爸当年求学的地方——让 Sarah、Brooke 和爷爷奶奶来看看，一起拍张合影。",
+      },
+      story: {
+        en: "The University of Illinois has one of the oldest and most highly ranked aerospace engineering programs in the country, tracing its roots to the early days of flight. Its faculty and graduates have contributed to aircraft design, spaceflight and rocketry, and several alumni have gone on to become NASA astronauts.\n\nTalbot Laboratory, the department's home, sits alongside the engineering buildings just north of the Main Quad. Inside are classrooms, wind tunnels and structures labs where generations of students — Dad among them — learned how flight and spacecraft really work. It's a short, flat walk from the Illini Union.",
+        zh: "伊利诺伊大学拥有全美历史最悠久、排名最靠前的航空航天工程专业之一，其渊源可追溯到航空发展的早期。历届师生在飞行器设计、航天与火箭领域多有贡献，数位校友更成为 NASA 宇航员。\n\n系馆塔尔博特实验楼紧邻主四方庭院以北的工程楼群。楼内设有教室、风洞和结构实验室，一代代学生——包括爸爸——在这里学习飞行与航天器的真正原理。从伊利尼联合楼步行过来是一小段平路。",
+      },
+      storySrc: "https://aerospace.illinois.edu/",
+      walk: { en: "Short & flat from the Illini Union; lobby visit.", zh: "从伊利尼联合楼过来平路很短；可入大堂参观。" },
+      hours: { en: "Building generally open on weekdays.", zh: "楼宇一般在工作日开放。" },
+      tips: {
+        en: "It's a few flat blocks north of the Illini Union — easy to fold into the day between tours. You're welcome to step into the lobby; the classrooms and labs are for students. A photo of Dad with the kids out front is the whole point of the stop.",
+        zh: "在伊利尼联合楼以北几个平坦街区——很方便在两场导览之间顺道前往。可入大堂看看；教室与实验室供学生使用。在楼前给爸爸和孩子们拍张合影，才是这一站的意义所在。",
+      },
+      coords: [40.11181, -88.22828],
+      mapQuery: "Talbot Laboratory, 104 S Wright St Urbana IL",
+      links: [
+        { label: { en: "Dept. of Aerospace Engineering", zh: "航空航天工程系" }, url: "https://aerospace.illinois.edu/" },
+        { label: { en: "Open in Apple Maps", zh: "用 Apple 地图打开" }, url: "https://maps.apple.com/?q=Talbot%20Laboratory%20Urbana&ll=40.11181,-88.22828" },
+      ],
+      mustSee: [
+        { emoji: "🏛️", img: "uiuc-aerospace.jpg", link: "https://aerospace.illinois.edu/",
+          caption: { en: "Talbot Laboratory", zh: "塔尔博特实验楼" },
+          desc: { en: "The home of Aerospace Engineering, just north of the Main Quad — where Dad studied. A great spot for a family photo.", zh: "航空航天工程系的所在，就在主四方庭院以北——爸爸求学之地。是拍全家福的好地方。" } },
+      ],
+    },
+    "uiuc-apartment": {
+      emoji: "🏠",
+      name: { en: "Dad's old apartment", zh: "爸爸当年的住处" },
+      area: { en: "906½ S Vine St, Urbana", zh: "厄巴纳 南 Vine 街 906½ 号" },
+      summary: {
+        en: "A quick, sentimental drive-by — the place Dad lived as a student.",
+        zh: "一次温馨的路过——爸爸求学时住过的地方。",
+      },
+      intro: {
+        en: "About a mile east of the Quad, on a quiet residential street in Urbana, is 906½ S Vine St — where Dad lived during his university years. It's a short detour to drive by, point it out to the kids, and remember the old days.",
+        zh: "在四方庭院以东约一英里、厄巴纳一条安静的住宅街上，就是南 Vine 街 906½ 号——爸爸大学时期的住处。顺道开车路过，指给孩子们看看，重温当年的时光。",
+      },
+      walk: { en: "None — a drive-by; view from the street.", zh: "无需步行——开车路过，从街边看看。" },
+      hours: { en: "Anytime; it's a private home now.", zh: "随时；现为私人住宅。" },
+      tips: {
+        en: "It's now a private residence, so please just admire it from the sidewalk rather than the property. A quick family photo out front is a lovely keepsake. About a 5-minute drive from campus, on the way in or out of town.",
+        zh: "这里现在是私人住宅，请在人行道上远观，不要进入私人领地。在门前拍张合影是很温馨的纪念。距校园约5分钟车程，进城或离城时顺路。",
+      },
+      coords: [40.10507, -88.20468],
+      mapQuery: "906 1/2 S Vine St, Urbana IL",
+      links: [
+        { label: { en: "Open in Apple Maps", zh: "用 Apple 地图打开" }, url: "https://maps.apple.com/?q=906%201%2F2%20S%20Vine%20St%20Urbana%20IL&ll=40.10507,-88.20468" },
+      ],
+      mustSee: [],
     },
     "uiuc-wait": {
       emoji: "🥤",

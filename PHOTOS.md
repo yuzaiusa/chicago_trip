@@ -29,6 +29,8 @@ overwrite the file with the same name.
 - `uiuc-stadium.jpg` — Memorial Stadium
 - `union-lounge.jpg` — Illini Union building (waiting spot)
 - `union-food.jpg` — café at the Illini Union
+- `uiuc-aerospace.jpg` — Talbot Laboratory (aerospace engineering — where Dad studied)
+- _Dad's old apartment (906½ S Vine St) has no gallery — drop in your own photo as `uiuc-apartment.jpg` and add it to that stop's `mustSee` if you'd like one._
 
 ## Fri — University of Chicago (Hyde Park)
 - `uchicago-quad.jpg` — the Gothic quadrangles
