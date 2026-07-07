@@ -104,14 +104,14 @@ const TRIP = {
       label: { en: "Fri · Jul 10", zh: "周五 · 7月10日" },
       title: { en: "University of Chicago & Botanic Garden", zh: "芝加哥大学与植物园" },
       summary: {
-        en: "A morning admissions tour at the University of Chicago in Hyde Park (8:30–11:30). The grandparents sleep in and rest at the hotel. Back in the afternoon, Brooke and Sarah start skating camp at 2:30. While they skate, Dad, Bridget and the grandparents enjoy a relaxed afternoon at the nearby Chicago Botanic Garden — flat paths, a narrated tram, cool greenhouses and a café. Nothing in the city for the grandparents today; it's an easy, local afternoon.",
-        zh: "上午参加芝加哥大学（海德公园校区）的招生导览（8:30–11:30）。爷爷奶奶睡到自然醒，在酒店休息。下午返回后，Brooke 和 Sarah 于2:30开始滑冰营。她们滑冰期间，爸爸、Bridget 和爷爷奶奶到附近的芝加哥植物园（Chicago Botanic Garden）度过轻松的下午——路面平坦、有讲解游览车、凉爽的温室和咖啡馆。今天不带爷爷奶奶进城，是一个轻松的本地下午。",
+        en: "A morning admissions tour at the University of Chicago in Hyde Park (8:30–11:30), then a quick look at the free grounds of the brand-new Obama Presidential Center right next door. The grandparents sleep in and rest at the hotel. Back in the afternoon, Brooke and Sarah start skating camp at 2:30. While they skate, Dad, Bridget and the grandparents enjoy a relaxed afternoon at the nearby Chicago Botanic Garden — flat paths, a narrated tram, cool greenhouses and a café. Nothing else in the city for the grandparents today; it's an easy, local afternoon.",
+        zh: "上午参加芝加哥大学（海德公园校区）的招生导览（8:30–11:30），随后顺道看看隔壁全新的奥巴马总统中心的免费园区。爷爷奶奶睡到自然醒，在酒店休息。下午返回后，Brooke 和 Sarah 于2:30开始滑冰营。她们滑冰期间，爸爸、Bridget 和爷爷奶奶到附近的芝加哥植物园（Chicago Botanic Garden）度过轻松的下午——路面平坦、有讲解游览车、凉爽的温室和咖啡馆。今天不再带爷爷奶奶进城，是一个轻松的本地下午。",
       },
       transport: {
-        en: "For the tour, drive ~45 min to Hyde Park and park in a University of Chicago visitor garage. Back to the hotel by early afternoon to drop the girls at camp (near Northbrook). The Botanic Garden is a 10-minute drive from the hotel in Glencoe, with a large, easy parking garage.",
-        zh: "参加导览时，开车约45分钟到海德公园，停在芝加哥大学的访客停车楼。下午早些回到酒店，送两个女孩去滑冰营（在诺斯布鲁克附近）。植物园在格伦科（Glencoe），距酒店约10分钟车程，有宽敞好停的停车楼。",
+        en: "For the tour, drive ~45 min to Hyde Park and park in a University of Chicago visitor garage. The Obama Center is a 5-minute drive (or flat Midway walk) east; leave Hyde Park by ~1pm so you're back to drop the girls at camp near Northbrook by 2:30. The Botanic Garden is a 10-minute drive from the hotel in Glencoe, with a large, easy parking garage.",
+        zh: "参加导览时，开车约45分钟到海德公园，停在芝加哥大学的访客停车楼。奥巴马中心在东面，开车5分钟（或沿平坦的中途绿带步行）即到；约下午1点前离开海德公园，以便返回、在2:30前把两个女孩送到诺斯布鲁克附近的滑冰营。植物园在格伦科（Glencoe），距酒店约10分钟车程，有宽敞好停的停车楼。",
       },
-      sites: ["uchicago", "botanic-garden"],
+      sites: ["uchicago", "obama-center", "botanic-garden"],
     },
     {
       id: "sat",
@@ -620,6 +620,42 @@ const TRIP = {
           desc: { en: "Henry Moore's bronze marks the site of the world's first controlled nuclear chain reaction (1942).", zh: "亨利·摩尔的青铜雕塑，标记世界首次受控核链式反应的发生地（1942年）。" } },
       ],
     },
+    "obama-center": {
+      emoji: "🏞️",
+      name: { en: "Obama Presidential Center (grounds)", zh: "奥巴马总统中心（园区）" },
+      area: { en: "Jackson Park, Hyde Park", zh: "海德公园 · 杰克逊公园" },
+      summary: {
+        en: "A quick look at the brand-new center — free grounds, right next to UChicago.",
+        zh: "顺道看看这座全新的中心——园区免费，就在芝加哥大学旁。",
+      },
+      intro: {
+        en: "The Obama Presidential Center opened on June 19, 2026, on a 19-acre campus in historic Jackson Park — about a mile east of the University of Chicago quad, a 5-minute drive or a flat walk down the Midway Plaisance. The outdoor campus (the striking museum tower, plaza and gardens) is free and open daily 6am–9pm, so it's an easy add right after the morning tour.",
+        zh: "奥巴马总统中心于2026年6月19日开放，坐落在历史悠久的杰克逊公园（Jackson Park）内一片19英亩的园区，距芝加哥大学四方庭院以东约一英里——开车5分钟，或沿平坦的中途绿带（Midway Plaisance）步行即到。露天园区（醒目的博物馆塔楼、广场与花园）免费开放，每日6:00–21:00，非常适合在上午导览后顺道一看。",
+      },
+      story: {
+        en: "The Obama Presidential Center is the home of the Barack Obama Presidential Library and Museum, run by the Obama Foundation. Its campus, designed by architects Tod Williams and Billie Tsien, is anchored by a tall museum tower clad in stone and inscribed with words from American history, surrounded by public green space, a forum building, a branch library and an athletic center.\n\nIt sits in Jackson Park, the lakefront park laid out by Frederick Law Olmsted for the 1893 World's Columbian Exposition. After years of planning and construction, the Center opened to the public on Juneteenth, June 19, 2026.\n\nMost of the campus — the plaza, gardens and grounds — is free and open to all. The Museum inside the tower is a separate, ticketed experience that takes a couple of hours; entry is by timed ticket only, so it needs planning ahead (and doesn't fit a busy tour morning). For a short visit, the grounds alone are well worth the stop.",
+        zh: "奥巴马总统中心是巴拉克·奥巴马总统图书馆与博物馆的所在，由奥巴马基金会（Obama Foundation）运营。园区由建筑师托德·威廉姆斯与钱以佳（Tod Williams、Billie Tsien）设计，核心是一座高耸的博物馆塔楼，外覆石材、镌刻着美国历史中的文字，周围环绕公共绿地、论坛楼、分馆图书馆和运动中心。\n\n它位于杰克逊公园——这片湖畔公园由弗雷德里克·劳·奥姆斯特德为1893年哥伦布纪念世界博览会规划。历经多年筹划与建设，中心于2026年6月19日“六月节”（Juneteenth）向公众开放。\n\n园区的大部分——广场、花园与绿地——免费向所有人开放。塔楼内的博物馆则是另行购票的体验，参观约需两小时；仅凭分时段门票入场，需提前安排（并不适合行程紧凑的导览上午）。若只作短暂停留，单看园区也很值得。",
+      },
+      storySrc: "https://en.wikipedia.org/wiki/Barack_Obama_Presidential_Center",
+      walk: { en: "A short, flat stroll on the grounds.", zh: "在园区平坦地散步一小段。" },
+      hours: { en: "Grounds free, daily 6am–9pm. Museum: timed ticket, Tue–Sun 10–5.", zh: "园区免费，每日6:00–21:00。博物馆：分时段门票，周二至周日10:00–17:00。" },
+      tips: {
+        en: "Best done right after the 8:30–11:30 UChicago tour: it's a 5-minute drive (or flat Midway walk) from the quad, so ~11:45–12:30 on the grounds, then a quick Hyde Park lunch and drive back to make skating camp by 2:30. The grounds need no ticket. The Museum is a separate $30 adult / $23 child timed ticket (often booked out — more released July 8, 2026) and about two hours, which won't fit this morning — save it for a future trip.",
+        zh: "最好紧接8:30–11:30的芝加哥大学导览之后前往：距四方庭院开车5分钟（或沿平坦的中途绿带步行），因此约11:45–12:30在园区走走，再在海德公园快速午餐、开车返回，赶上2:30的滑冰营。园区无需门票。博物馆需另行购买分时段门票（成人30美元／儿童23美元，常常售罄——2026年7月8日会再放票），约需两小时，今早时间不够——留待日后再来。",
+      },
+      coords: [41.78625, -87.58588],
+      mapQuery: "Obama Presidential Center, 6001 S Stony Island Ave Chicago",
+      links: [
+        { label: { en: "Obama Center — Visit", zh: "奥巴马中心 · 参观" }, url: "https://www.obama.org/visit/" },
+        { label: { en: "Museum tickets (separate)", zh: "博物馆门票（另购）" }, url: "https://www.obama.org/visit/museum-tickets/" },
+        { label: { en: "Open in Apple Maps", zh: "用 Apple 地图打开" }, url: "https://maps.apple.com/?q=Obama%20Presidential%20Center&ll=41.78625,-87.58588" },
+      ],
+      mustSee: [
+        { emoji: "🏛️", img: "obama-center.jpg", link: "https://www.obama.org/visit/",
+          caption: { en: "The museum tower", zh: "博物馆塔楼" },
+          desc: { en: "The stone-clad tower at the heart of the campus, opened June 2026 — a striking photo from the free public plaza and gardens.", zh: "园区核心那座石材塔楼，2026年6月开放——从免费的公共广场和花园可拍到震撼的照片。" } },
+      ],
+    },
     "botanic-garden": {
       emoji: "🌷",
       name: { en: "Chicago Botanic Garden", zh: "芝加哥植物园" },
@@ -1104,8 +1140,8 @@ const TRIP = {
       {
         title: { en: "🎓 UChicago & Botanic Garden (Fri Jul 10)", zh: "🎓 芝加哥大学与植物园（7月10日 周五）" },
         body: {
-          en: "Morning admissions tour at the University of Chicago in Hyde Park, 8:30–11:30 (leave the hotel ~7:30; grandparents rest at the hotel). Back by early afternoon to drop Brooke and Sarah at skating camp by 2:30. Then a relaxed afternoon at the Chicago Botanic Garden in Glencoe, 10 min from the hotel.",
-          zh: "上午在海德公园参加芝加哥大学招生导览，8:30–11:30（约7:30离开酒店；爷爷奶奶在酒店休息）。下午早些回来，于2:30前送 Brooke 和 Sarah 去滑冰营。随后到格伦科的芝加哥植物园度过轻松的下午，距酒店10分钟。",
+          en: "Morning admissions tour at the University of Chicago in Hyde Park, 8:30–11:30 (leave the hotel ~7:30; grandparents rest at the hotel). Afterward, a short stop at the free grounds of the new Obama Presidential Center next door (the ticketed museum needs ~2 hours and won't fit — skip it this trip). Leave Hyde Park by ~1pm to drop Brooke and Sarah at skating camp by 2:30. Then a relaxed afternoon at the Chicago Botanic Garden in Glencoe, 10 min from the hotel.",
+          zh: "上午在海德公园参加芝加哥大学招生导览，8:30–11:30（约7:30离开酒店；爷爷奶奶在酒店休息）。之后到隔壁全新的奥巴马总统中心的免费园区短暂停留（收费博物馆约需两小时，时间不够——本次略过）。约下午1点前离开海德公园，于2:30前送 Brooke 和 Sarah 去滑冰营。随后到格伦科的芝加哥植物园度过轻松的下午，距酒店10分钟。",
         },
         mapQuery: "University of Chicago, 5801 S Ellis Ave Chicago",
       },

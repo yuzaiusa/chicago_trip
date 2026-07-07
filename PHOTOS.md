@@ -37,6 +37,9 @@ overwrite the file with the same name.
 - `uchicago-chapel.jpg` — Rockefeller Memorial Chapel
 - `uchicago-nuclear.jpg` — "Nuclear Energy" sculpture (Henry Moore)
 
+## Fri — Obama Presidential Center (Jackson Park)
+- `obama-center.jpg` — the museum tower (free grounds, opened June 2026)
+
 ## Fri — Chicago Botanic Garden (Glencoe)
 - `botanic-lake.jpg` — Esplanade / North Lake & fountain (tram highlights)
 - `botanic-japanese.jpg` — Japanese Garden (Sansho-En arched bridge)
