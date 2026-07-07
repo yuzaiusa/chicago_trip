@@ -30,6 +30,8 @@ All images below are from [Wikimedia Commons](https://commons.wikimedia.org) and
 | `millennium-lurie.jpg` | [Lurie Garden, Chicago, Illinois, Estados Unidos, 2012-10-20, DD 02.jpg](https://commons.wikimedia.org/wiki/File:Lurie_Garden,_Chicago,_Illinois,_Estados_Unidos,_2012-10-20,_DD_02.jpg) | Diego Delso | CC BY-SA 3.0 |
 | `millennium-pavilion.jpg` | [Jay Pritzker Pavilion, Chicago, Illinois, Estados Unidos, 2012-10-20, DD 08.jpg](https://commons.wikimedia.org/wiki/File:Jay_Pritzker_Pavilion,_Chicago,_Illinois,_Estados_Unidos,_2012-10-20,_DD_08.jpg) | Diego Delso | CC BY-SA 3.0 |
 | `museum-campus-skyline.jpg` | [Chicago Skyline Hi-Res.jpg](https://commons.wikimedia.org/wiki/File:Chicago_Skyline_Hi-Res.jpg) | Buphoff at English Wikipedia | CC BY-SA 3.0 |
+| `norris-foodcourt.jpg` | [Norris University Center.jpg](https://commons.wikimedia.org/wiki/File:Norris_University_Center.jpg) | Madcoverboy | CC BY-SA 3.0 |
+| `norris-lakeview.jpg` | [NorthwesternLagoon.jpg](https://commons.wikimedia.org/wiki/File:NorthwesternLagoon.jpg) | Swyilk | CC BY-SA 4.0 |
 | `nu-arch.jpg` | [Northwestern Arch.jpg](https://commons.wikimedia.org/wiki/File:Northwestern_Arch.jpg) | Rdsmith4 | CC BY-SA 2.5 |
 | `nu-block.jpg` | [Mary and Leigh Block Museum of Art, Northwestern University - view 2.jpg](https://commons.wikimedia.org/wiki/File:Mary_and_Leigh_Block_Museum_of_Art,_Northwestern_University_-_view_2.jpg) | Daderot | Public domain |
 | `nu-deering.jpg` | [Deering front.jpg](https://commons.wikimedia.org/wiki/File:Deering_front.jpg) | Madcoverboy (talk) | CC BY-SA 3.0 |
@@ -40,6 +42,9 @@ All images below are from [Wikimedia Commons](https://commons.wikimedia.org) and
 | `nu-shakespeare-garden.jpg` | [Shakespeare Garden (Evanston).jpg](https://commons.wikimedia.org/wiki/File:Shakespeare_Garden_(Evanston).jpg) | Zol87 from Chicago, IL, USA | CC BY-SA 4.0 |
 | `nu-university-hall.jpg` | [University Hall at Northwestern University.jpg](https://commons.wikimedia.org/wiki/File:University_Hall_at_Northwestern_University.jpg) | Eeyore.conspiracy | CC BY 3.0 |
 | `shedd-aquarium.jpg` | [Acuario Shedd, Chicago, Illinois, Estados Unidos, 2012-10-21, DD 07.jpg](https://commons.wikimedia.org/wiki/File:Acuario_Shedd,_Chicago,_Illinois,_Estados_Unidos,_2012-10-21,_DD_07.jpg) | Diego Delso | CC BY-SA 3.0 |
+| `uchicago-chapel.jpg` | [Rockefeller Memorial Chapel, University of Chicago, 59th Street and Woodlawn Avenue, Hyde Park, Chicago, IL - 54213552646.jpg](https://commons.wikimedia.org/wiki/File:Rockefeller_Memorial_Chapel,_University_of_Chicago,_59th_Street_and_Woodlawn_Avenue,_Hyde_Park,_Chicago,_IL_-_54213552646.jpg) | w_lemay | CC BY-SA 2.0 |
+| `uchicago-nuclear.jpg` | [Nuclear Energy Sculpture, University of Chicago, Ellis Avenue, Hyde Park, Chicago, IL (54514265152).jpg](https://commons.wikimedia.org/wiki/File:Nuclear_Energy_Sculpture,_University_of_Chicago,_Ellis_Avenue,_Hyde_Park,_Chicago,_IL_(54514265152).jpg) | Warren LeMay from Chicago, IL, United States | CC BY-SA 2.0 |
+| `uchicago-quad.jpg` | [A Quad at the University of Chicago.jpg](https://commons.wikimedia.org/wiki/File:A_Quad_at_the_University_of_Chicago.jpg) | Crimson3981 | Public domain |
 | `uiuc-alma-mater.jpg` | [Statue Alma Mater by Mario Korbel.jpg](https://commons.wikimedia.org/wiki/File:Statue_Alma_Mater_by_Mario_Korbel.jpg) | Unknown author | Public domain |
 | `uiuc-altgeld.jpg` | [Altgeld Hall, University of Illinois - Winter.jpg](https://commons.wikimedia.org/wiki/File:Altgeld_Hall,_University_of_Illinois_-_Winter.jpg) | Killivalavan Solai | CC BY-SA 4.0 |
 | `uiuc-foellinger.jpg` | [Foellinger Auditorium University of Illinois at Urbana-Champaign closer.jpg](https://commons.wikimedia.org/wiki/File:Foellinger_Auditorium_University_of_Illinois_at_Urbana-Champaign_closer.jpg) | Beyond My Ken | CC BY-SA 4.0 |
@@ -48,3 +53,5 @@ All images below are from [Wikimedia Commons](https://commons.wikimedia.org) and
 | `uiuc-morrow.jpg` | [UIUC morrow plot.JPG](https://commons.wikimedia.org/wiki/File:UIUC_morrow_plot.JPG) | Ariescwliang | Public domain |
 | `uiuc-quad.jpg` | [Foellinger Auditorium University of Illinois at Urbana-Champaign from mid-quad.jpg](https://commons.wikimedia.org/wiki/File:Foellinger_Auditorium_University_of_Illinois_at_Urbana-Champaign_from_mid-quad.jpg) | Beyond My Ken | CC BY-SA 4.0 |
 | `uiuc-stadium.jpg` | [University of Illinois Memorial Stadium, October 1923.jpg](https://commons.wikimedia.org/wiki/File:University_of_Illinois_Memorial_Stadium,_October_1923.jpg) | Chicago Tribune | Public domain |
+| `union-food.jpg` | [UIUC courtyard cafe.JPG](https://commons.wikimedia.org/wiki/File:UIUC_courtyard_cafe.JPG) | User:Ariescwliang | Public domain |
+| `union-lounge.jpg` | [Illini Union - UIUC - DSC09100.JPG](https://commons.wikimedia.org/wiki/File:Illini_Union_-_UIUC_-_DSC09100.JPG) | Daderot | Public domain |

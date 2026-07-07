@@ -15,8 +15,8 @@ overwrite the file with the same name.
 - `nu-lakefill.jpg` — The Lakefill with Chicago skyline
 - `nu-block.jpg` — Block Museum of Art
 - `nu-observatory.jpg` — Dearborn Observatory
-- `norris-foodcourt.jpg` — Norris food court (grandparents' base)
-- `norris-lakeview.jpg` — Norris lakefront view
+- `norris-foodcourt.jpg` — Norris University Center building (grandparents' base)
+- `norris-lakeview.jpg` — lakefront by Norris
 
 ## Thu — University of Illinois (Urbana-Champaign)
 - `uiuc-alma-mater.jpg` — Alma Mater statue
@@ -27,8 +27,8 @@ overwrite the file with the same name.
 - `uiuc-morrow.jpg` — Morrow Plots
 - `uiuc-krannert.jpg` — Krannert Art Museum
 - `uiuc-stadium.jpg` — Memorial Stadium
-- `union-lounge.jpg` — Illini Union indoor lounge (waiting spot)
-- `union-food.jpg` — Illini Union food court
+- `union-lounge.jpg` — Illini Union building (waiting spot)
+- `union-food.jpg` — café at the Illini Union
 
 ## Fri — University of Chicago (Hyde Park)
 - `uchicago-quad.jpg` — the Gothic quadrangles

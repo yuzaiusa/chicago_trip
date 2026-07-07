@@ -328,11 +328,11 @@ const TRIP = {
       ],
       mustSee: [
         { emoji: "🍔", img: "norris-foodcourt.jpg", link: "https://www.northwestern.edu/norris/retail-operations/dining.html",
-          caption: { en: "The food court", zh: "美食广场" },
-          desc: { en: "Casual counters — burgers, deli, pizza, Starbucks and bubble tea — with lots of indoor seating. Cashless; bring a card or phone.", zh: "休闲柜台——汉堡、三明治、披萨、星巴克和珍珠奶茶——室内座位充足。仅收卡或手机支付。" } },
+          caption: { en: "Norris University Center", zh: "诺里斯学生中心" },
+          desc: { en: "The lakeside student center. Inside: casual counters — burgers, deli, pizza, Starbucks and bubble tea — with lots of indoor seating. Cashless; bring a card or phone.", zh: "湖畔的学生中心。内有休闲柜台——汉堡、三明治、披萨、星巴克和珍珠奶茶——室内座位充足。仅收卡或手机支付。" } },
         { emoji: "🌆", img: "norris-lakeview.jpg", link: "https://www.northwestern.edu/norris/",
-          caption: { en: "Lakefront view", zh: "湖畔景观" },
-          desc: { en: "Big windows and a terrace looking across Lake Michigan to the Chicago skyline — a pleasant place to sit and wait.", zh: "大窗和露台隔着密歇根湖遥望芝加哥天际线——坐下等候十分惬意。" } },
+          caption: { en: "Lakefront by Norris", zh: "诺里斯旁的湖滨" },
+          desc: { en: "Norris sits right on Lake Michigan, with big windows and a terrace over the water and the skyline beyond — a pleasant place to sit and wait.", zh: "诺里斯紧邻密歇根湖，大窗和露台俯瞰水面，远处是天际线——坐下等候十分惬意。" } },
       ],
     },
 
@@ -484,11 +484,11 @@ const TRIP = {
       ],
       mustSee: [
         { emoji: "🛋️", img: "union-lounge.jpg", link: "https://union.illinois.edu/",
-          caption: { en: "Indoor lounges", zh: "室内休息厅" },
-          desc: { en: "Comfortable, air-conditioned lounges and seating throughout — an easy place to rest for a couple of hours.", zh: "舒适、有空调的休息厅和座位遍布各处——歇上几个小时也很轻松。" } },
+          caption: { en: "Illini Union", zh: "伊利尼联合楼" },
+          desc: { en: "The grand student union at the head of the Quad — inside are comfortable, air-conditioned lounges and seating, an easy place to rest for a couple of hours.", zh: "庭院北端宏伟的学生联合楼——内有舒适、有空调的休息厅和座位，歇上几个小时也很轻松。" } },
         { emoji: "🍽️", img: "union-food.jpg", link: "https://union.illinois.edu/eat",
-          caption: { en: "Food court & lunch", zh: "美食广场与午餐" },
-          desc: { en: "Quick, familiar food inside, with restaurants along Green Street just north for a sit-down lunch between the two tours.", zh: "室内有快捷熟悉的餐饮，北面绿街还有餐馆，可在两场导览之间坐下用午餐。" } },
+          caption: { en: "Café & food at the Union", zh: "联合楼的咖啡馆与餐饮" },
+          desc: { en: "Quick, familiar food at the Union, with more restaurants along Green Street just north for a sit-down lunch between the two tours.", zh: "联合楼有快捷熟悉的餐饮，北面绿街还有更多餐馆，可在两场导览之间坐下用午餐。" } },
       ],
     },
     "rest-stop": {
