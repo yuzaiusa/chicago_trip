@@ -90,14 +90,14 @@ const TRIP = {
       label: { en: "Thu · Jul 9", zh: "周四 · 7月9日" },
       title: { en: "Day Trip to UIUC", zh: "伊利诺伊大学一日游" },
       summary: {
-        en: "An early start for the drive south to the University of Illinois Urbana-Champaign. Two tours today: a campus tour from 10–12:30 and an engineering tour from 1:30–3:45, with lunch in between. Brooke and the grandparents wait in the cool, comfortable Illini Union — food court, lounges and restrooms all indoors. They can also do a little of the flat Main Quad walk if they like. Along the way, two personal stops: the aerospace engineering building where Dad studied, and Dad's old student apartment nearby. Drive back with a rest stop.",
-        zh: "一早出发南下，前往位于厄巴纳-香槟的伊利诺伊大学（UIUC）。今天有两场导览：上午10:00–12:30的校园导览，以及下午1:30–3:45的工程学院导览，中间午餐。Brooke 和爷爷奶奶在凉爽舒适的伊利尼联合楼（Illini Union）等候——美食广场、休息厅和洗手间都在室内。他们也可随意走一小段平坦的主四方庭院。途中还有两处特别的停留：爸爸求学的航空航天工程系馆，以及附近爸爸当年的学生住处。返程途中休息一次。",
+        en: "An early start for the drive south to the University of Illinois Urbana-Champaign. Two tours today: a campus tour from 10–12:30 and an engineering tour from 1:30–3:45, with lunch in between. Brooke and the grandparents wait in the cool, comfortable Illini Union — food court, lounges and restrooms all indoors. They can also do a little of the flat Main Quad walk if they like. Along the way, two personal stops: the aerospace engineering building where Dad studied, and Dad's old student apartment nearby. After the afternoon tour, drive back to the city for a 6:30pm dinner with Dad's friend in Lincoln Park, then north to the hotel.",
+        zh: "一早出发南下，前往位于厄巴纳-香槟的伊利诺伊大学（UIUC）。今天有两场导览：上午10:00–12:30的校园导览，以及下午1:30–3:45的工程学院导览，中间午餐。Brooke 和爷爷奶奶在凉爽舒适的伊利尼联合楼（Illini Union）等候——美食广场、休息厅和洗手间都在室内。他们也可随意走一小段平坦的主四方庭院。途中还有两处特别的停留：爸爸求学的航空航天工程系馆，以及附近爸爸当年的学生住处。下午的导览结束后，驱车返回城里，于6:30与爸爸的朋友在林肯公园共进晚餐，之后向北回酒店。",
       },
       transport: {
-        en: "About 2h30 each way by car (≈140 miles). Leave by 7:00am to reach the 10am tour with time to park. Plan one rest stop each way. It's a long driving day — keep it calm and unhurried.",
-        zh: "单程约2小时30分（约140英里）。建议上午7:00前出发，留出停车时间赶上10点的导览。往返各安排一次休息。这是开车较多的一天——节奏放慢、不赶时间。",
+        en: "About 2h30 each way by car (≈140 miles). Leave by 7:00am to reach the 10am tour with time to park. The second tour ends at 3:45pm; head straight back for the 6:30pm dinner in Lincoln Park (≈2h30 with evening traffic), so keep the return rest stop short or skip it. It's a long driving day — keep it calm, but leave promptly after the afternoon tour.",
+        zh: "单程约2小时30分（约140英里）。建议上午7:00前出发，留出停车时间赶上10点的导览。第二场导览下午3:45结束；随后直接返回城里赶6:30在林肯公园的晚餐（含傍晚车流约2小时30分），因此把返程休息缩短或省去。这是开车较多的一天——节奏放松，但下午导览一结束就尽快出发。",
       },
-      sites: ["uiuc", "uiuc-aerospace", "uiuc-apartment", "uiuc-wait", "rest-stop"],
+      sites: ["uiuc", "uiuc-aerospace", "uiuc-apartment", "uiuc-wait", "rest-stop", "dinner-friend"],
     },
     {
       id: "fri",
@@ -575,6 +575,32 @@ const TRIP = {
       },
       coords: [41.2050, -87.8650],
       mapQuery: "Illinois I-57 rest area",
+      mustSee: [],
+    },
+
+    "dinner-friend": {
+      emoji: "🍽️",
+      name: { en: "Dinner with a friend", zh: "与老友的晚餐" },
+      area: { en: "Lincoln Park, Chicago", zh: "芝加哥 · 林肯公园" },
+      summary: {
+        en: "Dinner Thursday at 6:30pm, on the way back from UIUC.",
+        zh: "周四晚6:30的晚餐，在从 UIUC 返回途中。",
+      },
+      intro: {
+        en: "On the way back from the UIUC day trip, the whole family stops for dinner with Dad's friend in Lincoln Park (421 W Webster Ave) at 6:30pm. It's a lovely end to a long driving day — then a short drive north to the hotel.",
+        zh: "从 UIUC 一日游返回途中，全家于6:30到林肯公园（421 W Webster Ave）与爸爸的朋友共进晚餐。这是漫长驾车日温馨的收尾——之后向北开一小段回酒店。",
+      },
+      walk: { en: "None — arrive by car.", zh: "无需步行——开车抵达。" },
+      hours: { en: "Thursday Jul 9, 6:30pm.", zh: "7月9日 周四 18:30。" },
+      tips: {
+        en: "Timing is tight: the second tour ends at 3:45pm in Champaign and the drive is about 2h30 with Thursday-evening traffic, so leave promptly and keep the return rest stop short (or skip it). If traffic looks heavy, text your friend you may arrive closer to 7. Street parking in Lincoln Park can be limited — allow a few extra minutes. After dinner it's about a 30–40 min drive north to the hotel in Northbrook.",
+        zh: "时间较紧：第二场导览下午3:45在香槟结束，加上周四傍晚的车流，车程约2小时30分，所以要尽快出发，把返程的休息停留缩短（或省去）。若车流较重，给朋友发条消息说可能接近7点到。林肯公园的路边停车可能不好找——多留几分钟。晚餐后向北开约30–40分钟回诺斯布鲁克的酒店。",
+      },
+      coords: [41.92172, -87.63985],
+      mapQuery: "421 W Webster Ave, Chicago IL",
+      links: [
+        { label: { en: "Open in Apple Maps", zh: "用 Apple 地图打开" }, url: "https://maps.apple.com/?q=421%20W%20Webster%20Ave%20Chicago%20IL&ll=41.92172,-87.63985" },
+      ],
       mustSee: [],
     },
 
@@ -1132,8 +1158,8 @@ const TRIP = {
       {
         title: { en: "🚗 UIUC Day Trip (Thu Jul 9)", zh: "🚗 伊利诺伊大学一日游（7月9日 周四）" },
         body: {
-          en: "About 2h30 each way (≈140 miles, mostly I-57). Two tours: campus 10–12:30 and engineering 1:30–3:45, lunch in between. Leave by 7:00am to park before the 10am start. Brooke and the grandparents wait at the cool Illini Union. Plan one rest stop each way at an Illinois highway oasis; keep water and snacks in the car and don't rush.",
-          zh: "单程约2小时30分（约140英里，主要走57号州际公路）。两场导览：校园10:00–12:30、工程1:30–3:45，中间午餐。建议上午7:00前出发，在10点开始前停好车。Brooke 和爷爷奶奶在凉爽的伊利尼联合楼等候。往返各在伊利诺伊高速“绿洲”服务区休息一次；车上备好水和零食，不要赶路。",
+          en: "About 2h30 each way (≈140 miles, mostly I-57). Two tours: campus 10–12:30 and engineering 1:30–3:45, lunch in between. Leave by 7:00am to park before the 10am start. Brooke and the grandparents wait at the cool Illini Union. Evening: 6:30pm dinner with Dad's friend at 421 W Webster Ave, Lincoln Park — the second tour ends at 3:45, so leave promptly and keep the return rest stop short to make it. After dinner, ~30–40 min north to the hotel. Keep water and snacks in the car.",
+          zh: "单程约2小时30分（约140英里，主要走57号州际公路）。两场导览：校园10:00–12:30、工程1:30–3:45，中间午餐。建议上午7:00前出发，在10点开始前停好车。Brooke 和爷爷奶奶在凉爽的伊利尼联合楼等候。傍晚：6:30与爸爸的朋友在林肯公园 421 W Webster Ave 共进晚餐——第二场导览3:45结束，因此要尽快出发、缩短返程休息才能赶上。晚餐后向北约30–40分钟回酒店。车上备好水和零食。",
         },
         mapQuery: "Illini Union, 1401 W Green St Urbana IL",
       },
