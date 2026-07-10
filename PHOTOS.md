@@ -51,11 +51,10 @@ overwrite the file with the same name.
 - `cruise-skyline.jpg` — skyscrapers from the water
 - `cruise-riverwalk.jpg` — the Chicago Riverwalk
 
-## Sat — Field Museum / Museum Campus
-- `field-sue.jpg` — SUE the T. rex
-- `field-building.jpg` — Stanley Field Hall / building
-- `museum-campus-skyline.jpg` — skyline from Museum Campus
-- `shedd-aquarium.jpg` — Shedd Aquarium (alternative)
+## Sat — Milton Lee Olive Park
+- `olive-park-allee.jpg` — the honey-locust allée / shaded path
+- `olive-park-skyline.jpg` — skyline from the granite deck over the lake
+- `olive-park-beach.jpg` — Ohio Street Beach alongside the park
 
 ## Sat — Chinatown
 - `chinatown-gate.jpg` — the Chinatown Gate (paifang)

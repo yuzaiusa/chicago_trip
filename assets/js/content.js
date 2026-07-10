@@ -116,16 +116,16 @@ const TRIP = {
     {
       id: "sat",
       label: { en: "Sat · Jul 11", zh: "周六 · 7月11日" },
-      title: { en: "River Cruise, Chinatown & Museum Campus", zh: "建筑游船、唐人街与博物馆园区" },
+      title: { en: "River Cruise, Lakefront Park & Chinatown", zh: "建筑游船、湖畔公园与唐人街" },
       summary: {
-        en: "The girls are at skating camp, so Dad, Bridget and the grandparents have a full day downtown. First the booked architecture river cruise (arrive by 9:30 for the 10:00–11:30 departure) — 90 minutes fully seated on the water. Then a warm, familiar dim-sum lunch in Chinatown, and an easy afternoon at the lakefront Field Museum with its grand skyline view. Indoors and restful when it's hot.",
-        zh: "两个女孩在滑冰营，因此爸爸、Bridget 和爷爷奶奶有一整天在市区。先是已预订的建筑游船（10:00–11:30 发船，请9:30前到达）——90分钟全程坐在水上。之后到唐人街吃一顿熟悉暖心的点心午餐，再从容地游览湖畔的菲尔德博物馆及其壮丽的天际线景观。天热时室内凉爽、轻松休憩。",
+        en: "The girls are at skating camp, so Dad, Bridget and the grandparents have an easy day downtown. First the booked architecture river cruise (arrive by 9:30 for the 10:00–11:30 departure) — 90 minutes fully seated on the water. Afterward, a short flat walk to Milton Lee Olive Park for a relaxed, shaded lakefront stroll with an unobstructed skyline view. Then a warm, familiar dim-sum lunch in Chinatown before heading back to the hotel to rest.",
+        zh: "两个女孩在滑冰营，因此爸爸、Bridget 和爷爷奶奶有一个轻松的市区之日。先是已预订的建筑游船（10:00–11:30 发船，请9:30前到达）——90分钟全程坐在水上。之后步行一小段平路到米尔顿·李·奥利夫公园（Milton Lee Olive Park），在有遮阳的湖畔悠闲散步，欣赏毫无遮挡的天际线景观。再到唐人街吃一顿熟悉暖心的点心午餐，然后回酒店休息。",
       },
       transport: {
-        en: "Drive ~40 min downtown and park near the river dock (Michigan Avenue Bridge) — leave the hotel by ~8:30 to arrive by 9:30. After the cruise, Chinatown is a 5-minute drive south; the Field Museum's Museum Campus is 5 minutes from Chinatown, with parking in the Soldier Field garages.",
-        zh: "驱车约40分钟进城，停在游船码头（密歇根大道桥）附近——约8:30离开酒店，以便9:30前到达。游船结束后，唐人街在南面约5分钟车程；菲尔德博物馆所在的博物馆园区距唐人街5分钟，可停在士兵球场（Soldier Field）停车楼。",
+        en: "Drive ~40 min downtown to the dock at 465 N McClurg Ct (Ogden Slip, Streeterville) and park at the River East Center Garage, 322 E Illinois St. Leave the hotel by ~8:30 to arrive by 9:30. After the cruise, it's a short, flat ~10-minute walk east to Milton Lee Olive Park on the lakefront — leave the car in the same garage. Then drive ~10 min south to Chinatown for lunch (Chinatown Square lot off Archer Ave), and back to the hotel (~40 min) to rest.",
+        zh: "驱车约40分钟进城到码头：465 N McClurg Ct（Ogden Slip，Streeterville 街特维尔区），停在 River East Center 停车楼（322 E Illinois St）。约8:30离开酒店，以便9:30前到达。游船结束后，向东步行约10分钟平路即到湖畔的米尔顿·李·奥利夫公园——车就停在同一停车楼。之后向南驱车约10分钟到唐人街吃午餐（阿彻大道旁的华埠广场停车场），再驱车约40分钟回酒店休息。",
       },
-      sites: ["river-cruise", "chinatown", "field-museum"],
+      sites: ["river-cruise", "olive-park", "chinatown"],
     },
     {
       id: "sun",
@@ -850,14 +850,15 @@ const TRIP = {
       walk: { en: "Zero walking — fully seated, 90 minutes.", zh: "完全无需步行——全程坐着，90分钟。" },
       hours: { en: "Our cruise: Sat Jul 11, 10:00–11:30am. Arrive by 9:30am.", zh: "我们的班次：7月11日周六 10:00–11:30。请9:30前到达。" },
       tips: {
-        en: "This is booked for Saturday, 10:00–11:30am — arrive at the dock by 9:30 to check in and board without rushing (leave the hotel by ~8:30). The dock is at the Michigan Avenue Bridge; park in a garage nearby and it's a short, level walk. Boats are shaded and seated, and staff help with boarding. Bring a light jacket — it can be breezy on the water. Have the confirmation/tickets ready on your phone.",
-        zh: "已预订周六 10:00–11:30 的班次——请9:30前到达码头，从容办理登船（约8:30离开酒店）。码头在密歇根大道桥；就近停在停车楼，步行一小段平路即到。船上有遮阳和座位，工作人员协助上船。带件薄外套——水上可能有风。请在手机上备好订票确认/电子票。",
+        en: "This is booked for Saturday, 10:00–11:30am — arrive at the dock by 9:30 to check in and board without rushing (leave the hotel by ~8:30). The meeting place is 465 N McClurg Ct (the Ogden Slip dock in Streeterville, behind Target/Pinstripes). Park at the River East Center Garage, 322 E Illinois St — about a block's level walk. Boats are shaded and seated, and staff help with boarding. Bring a light jacket — it can be breezy on the water. Have the confirmation/tickets ready on your phone.",
+        zh: "已预订周六 10:00–11:30 的班次——请9:30前到达码头，从容办理登船（约8:30离开酒店）。集合地点是 465 N McClurg Ct（Streeterville 区 Ogden Slip 码头，位于 Target／Pinstripes 后侧）。可停在 River East Center 停车楼（322 E Illinois St）——步行约一个街区的平路即到。船上有遮阳和座位，工作人员协助上船。带件薄外套——水上可能有风。请在手机上备好订票确认/电子票。",
       },
-      coords: [41.8881, -87.6249],
-      mapQuery: "Chicago Architecture Center River Cruise dock, 112 E Wacker Dr Chicago",
+      coords: [41.8908, -87.6153],
+      mapQuery: "465 N McClurg Ct, Chicago, IL 60611",
       links: [
         { label: { en: "Chicago Architecture Center cruise", zh: "芝加哥建筑中心游船" }, url: "https://www.architecture.org/tours/detail/chicago-architecture-foundation-center-river-cruise-aboard-chicagos-first-lady/" },
-        { label: { en: "Dock: Michigan Ave Bridge", zh: "码头：密歇根大道桥" }, url: "https://maps.apple.com/?q=Chicago%20Architecture%20Center%20River%20Cruise%20Dock&ll=41.8881,-87.6249" },
+        { label: { en: "Meeting place: 465 N McClurg Ct", zh: "集合地点：465 N McClurg Ct" }, url: "https://maps.apple.com/?q=465%20N%20McClurg%20Ct%2C%20Chicago%2C%20IL%2060611&ll=41.8908,-87.6153" },
+        { label: { en: "Parking: River East Center Garage", zh: "停车：River East Center 停车楼" }, url: "https://maps.apple.com/?q=River%20East%20Center%20Garage%2C%20322%20E%20Illinois%20St%2C%20Chicago" },
       ],
       mustSee: [
         { emoji: "🚤", img: "cruise-boat.jpg", link: "https://www.architecture.org/",
@@ -913,6 +914,48 @@ const TRIP = {
     },
 
     /* ---------------------------------------------------------------- SAT */
+    "olive-park": {
+      emoji: "🌳",
+      name: { en: "Milton Lee Olive Park", zh: "米尔顿·李·奥利夫公园" },
+      area: { en: "Lakefront, beside Navy Pier", zh: "海军码头旁的湖畔" },
+      summary: {
+        en: "A quiet, shaded lakefront park with an unobstructed skyline view — the day's calm finish.",
+        zh: "一座宁静、有遮阳的湖畔公园，天际线一览无遮——为一天画上从容的句点。",
+      },
+      intro: {
+        en: "Just north of Navy Pier, this small peninsula park is a hidden calm spot. Rows of honey locust trees shade flat, easy paths that lead to the water's edge, where benches and a deck cantilevered over the lake give one of the city's best skyline views. Far quieter than the Pier — perfect for a relaxed, senior-friendly stroll and a sit by the water.",
+        zh: "就在海军码头以北，这座小小的半岛公园是难得的清静之地。成排的皂荚树为平坦好走的小径遮阳，一路通向水边；那里有长椅，还有一座悬挑于湖面之上的观景台，可饱览全城最佳的天际线景观之一。这里比码头安静得多——非常适合长者从容散步、临水小坐。",
+      },
+      story: {
+        en: "Milton Lee Olive Park opened in 1965 on a man-made peninsula beside the James W. Jardine Water Purification Plant, just north of Navy Pier. It is named for PFC Milton Lee Olive III, a Chicago native and the first African-American to receive the Medal of Honor for service in the Vietnam War, who at nineteen threw himself on a grenade to save fellow soldiers.\n\nThe park was designed by the celebrated landscape architect Dan Kiley, known for his disciplined, geometric use of trees. His signature here is a wide allée of honey locusts that frames the walk toward the lake and, looking back, the downtown skyline.\n\nAt the midpoint of the allée a cantilevered deck with polished granite benches reaches out over Lake Michigan, offering expansive views of the city to the northwest. Because it sits behind the water plant and is easy to miss, it stays peaceful even on busy summer days — a favorite of photographers and anyone wanting a quiet lakefront moment.",
+        zh: "米尔顿·李·奥利夫公园于1965年建成，坐落在海军码头以北、James W. Jardine 净水厂旁的一座人工半岛上。公园以芝加哥本地人、一等兵米尔顿·李·奥利夫三世（PFC Milton Lee Olive III）命名——他是首位因越战服役而获颁荣誉勋章的非裔美国人，19岁时以身扑向手榴弹，救下了战友。\n\n公园由著名景观建筑师丹·基利（Dan Kiley）设计，他以对树木严谨、几何化的运用而闻名。他在此的标志之作，是一条宽阔的皂荚树林荫道，既框住通往湖边的步道，回望时又框出市区天际线。\n\n林荫道中段有一座悬挑于密歇根湖面之上的观景台，配以磨光花岗岩长椅，向西北望去可尽览城市全景。由于藏在净水厂之后、极易被错过，即便在繁忙的夏日也依旧宁静——是摄影爱好者和想要享受一段清静湖畔时光的人的心头好。",
+      },
+      storySrc: "https://en.wikipedia.org/wiki/Milton_Lee_Olive_Park",
+      walk: { en: "Flat, shaded paths; benches throughout.", zh: "平坦、有遮阳的小径；处处有长椅。" },
+      hours: { en: "Daily 7am–8pm. Free.", zh: "每日7:00–20:00。免费。" },
+      tips: {
+        en: "Keep the car in the River East Center Garage (322 E Illinois St) from the cruise — the park is a short, flat ~10-minute walk east along the lakefront. Follow the honey-locust allée to the granite deck over the water for the best skyline photo. Benches and shade throughout, but no café — bring water and a hat on a hot day. Ohio Street Beach is right alongside if anyone wants to dip their feet.",
+        zh: "从游船那边就把车停在 River East Center 停车楼（322 E Illinois St）不动——公园沿湖畔向东步行约10分钟平路即到。沿皂荚树林荫道走到临水的花岗岩观景台，是拍摄天际线的最佳位置。园内处处有长椅和遮阳，但没有咖啡馆——天热请自带水和帽子。旁边就是俄亥俄街海滩（Ohio Street Beach），想戏水的话可以下去踩踩水。",
+      },
+      coords: [41.8928, -87.6083],
+      mapQuery: "Milton Lee Olive Park, 500 N Lake Shore Dr, Chicago",
+      links: [
+        { label: { en: "Olive Park (Choose Chicago)", zh: "奥利夫公园（Choose Chicago）" }, url: "https://www.choosechicago.com/listing/olive-park/" },
+        { label: { en: "Parking: River East Center Garage", zh: "停车：River East Center 停车楼" }, url: "https://maps.apple.com/?q=River%20East%20Center%20Garage%2C%20322%20E%20Illinois%20St%2C%20Chicago" },
+        { label: { en: "Map: 500 N Lake Shore Dr", zh: "地图：500 N Lake Shore Dr" }, url: "https://maps.apple.com/?q=Milton%20Lee%20Olive%20Park%2C%20Chicago&ll=41.8928,-87.6083" },
+      ],
+      mustSee: [
+        { emoji: "🌳", img: "olive-park-allee.jpg", link: "https://www.choosechicago.com/listing/olive-park/",
+          caption: { en: "The honey-locust allée", zh: "皂荚树林荫道" },
+          desc: { en: "Dan Kiley's shaded rows of trees line a flat, easy path to the water — cool and calm even on a hot afternoon.", zh: "丹·基利设计的成排林荫为通往水边的平坦步道遮阳——即便炎热的午后也清凉宁静。" } },
+        { emoji: "🌆", img: "olive-park-skyline.jpg", link: "https://www.choosechicago.com/listing/olive-park/",
+          caption: { en: "Skyline from the granite deck", zh: "花岗岩观景台上的天际线" },
+          desc: { en: "A deck cantilevered over Lake Michigan with polished granite benches gives an unobstructed view back at the downtown towers.", zh: "悬挑于密歇根湖面之上的观景台，配磨光花岗岩长椅，可毫无遮挡地回望市区高楼。" } },
+        { emoji: "🏖️", img: "olive-park-beach.jpg", link: "https://www.chicagoparkdistrict.com/parks-facilities/ohio-street-beach",
+          caption: { en: "Ohio Street Beach alongside", zh: "旁边的俄亥俄街海滩" },
+          desc: { en: "A small, calm beach right beside the park — a gentle spot to sit by the water or dip your feet before lunch.", zh: "紧邻公园的一小片宁静海滩——午餐前临水小坐、踩踩水的好去处。" } },
+      ],
+    },
     "field-museum": {
       emoji: "🦖",
       name: { en: "Field Museum & Museum Campus", zh: "菲尔德博物馆与博物馆园区" },
@@ -1182,10 +1225,10 @@ const TRIP = {
       {
         title: { en: "🚤 Saturday Downtown (Sat Jul 11)", zh: "🚤 周六进城（7月11日 周六）" },
         body: {
-          en: "Booked architecture river cruise 10:00–11:30am — arrive at the Michigan Avenue Bridge dock by 9:30 (leave the hotel ~8:30). Park in a garage near the dock. Then Chinatown for dim sum (Chinatown Square lot off Archer Ave), and the Field Museum / Museum Campus (Soldier Field North Garage). Have the cruise tickets ready on your phone.",
-          zh: "已预订建筑游船 10:00–11:30——请9:30前到达密歇根大道桥码头（约8:30离开酒店）。就近停在码头附近的停车楼。之后到唐人街吃点心（阿彻大道旁的华埠广场停车场），再去菲尔德博物馆／博物馆园区（士兵球场北侧停车楼）。请在手机上备好游船电子票。",
+          en: "Booked architecture river cruise 10:00–11:30am — arrive at the dock at 465 N McClurg Ct by 9:30 (leave the hotel ~8:30). Park at the River East Center Garage, 322 E Illinois St. After the cruise, take the short, flat ~10-min walk east to Milton Lee Olive Park for a shaded lakefront stroll and skyline view (leave the car in the same garage). Then drive to Chinatown for dim sum (Chinatown Square lot off Archer Ave), and back to the hotel to rest. Have the cruise tickets ready on your phone.",
+          zh: "已预订建筑游船 10:00–11:30——请9:30前到达码头 465 N McClurg Ct（约8:30离开酒店）。可停在 River East Center 停车楼（322 E Illinois St）。游船后向东步行约10分钟平路即到米尔顿·李·奥利夫公园，在有遮阳的湖畔散步并欣赏天际线（车停在同一停车楼即可）。之后驱车到唐人街吃点心（阿彻大道旁的华埠广场停车场），再回酒店休息。请在手机上备好游船电子票。",
         },
-        mapQuery: "Chicago Architecture Center River Cruise dock, 112 E Wacker Dr Chicago",
+        mapQuery: "465 N McClurg Ct, Chicago, IL 60611",
       },
       {
         title: { en: "🕌 Sunday & Departure (Sun Jul 12)", zh: "🕌 周日与返程（7月12日 周日）" },
