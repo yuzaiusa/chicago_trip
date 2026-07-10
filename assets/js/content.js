@@ -102,16 +102,16 @@ const TRIP = {
     {
       id: "fri",
       label: { en: "Fri · Jul 10", zh: "周五 · 7月10日" },
-      title: { en: "University of Chicago & Botanic Garden", zh: "芝加哥大学与植物园" },
+      title: { en: "University of Chicago & Obama Center", zh: "芝加哥大学与奥巴马中心" },
       summary: {
-        en: "A morning admissions tour at the University of Chicago in Hyde Park (8:30–11:30), then a quick look at the free grounds of the brand-new Obama Presidential Center right next door. The grandparents sleep in and rest at the hotel. Back in the afternoon, Brooke and Sarah start skating camp at 2:30. While they skate, Dad, Bridget and the grandparents enjoy a relaxed afternoon at the nearby Chicago Botanic Garden — flat paths, a narrated tram, cool greenhouses and a café. Nothing else in the city for the grandparents today; it's an easy, local afternoon.",
-        zh: "上午参加芝加哥大学（海德公园校区）的招生导览（8:30–11:30），随后顺道看看隔壁全新的奥巴马总统中心的免费园区。爷爷奶奶睡到自然醒，在酒店休息。下午返回后，Brooke 和 Sarah 于2:30开始滑冰营。她们滑冰期间，爸爸、Bridget 和爷爷奶奶到附近的芝加哥植物园（Chicago Botanic Garden）度过轻松的下午——路面平坦、有讲解游览车、凉爽的温室和咖啡馆。今天不再带爷爷奶奶进城，是一个轻松的本地下午。",
+        en: "A morning admissions tour at the University of Chicago in Hyde Park (8:30–11:30), then a quick look at the free grounds of the brand-new Obama Presidential Center right next door. The grandparents sleep in and rest at the hotel. Back in the afternoon, Brooke and Sarah start skating camp at 2:30. With the tour done, it's an easy, restful afternoon — nothing else on the schedule for the grandparents today.",
+        zh: "上午参加芝加哥大学（海德公园校区）的招生导览（8:30–11:30），随后顺道看看隔壁全新的奥巴马总统中心的免费园区。爷爷奶奶睡到自然醒，在酒店休息。下午返回后，Brooke 和 Sarah 于2:30开始滑冰营。导览结束后，是一个轻松、休息的下午——今天不再为爷爷奶奶安排其他行程。",
       },
       transport: {
-        en: "For the tour, drive ~45 min to Hyde Park and park in a University of Chicago visitor garage. The Obama Center is a 5-minute drive (or flat Midway walk) east; leave Hyde Park by ~1pm so you're back to drop the girls at camp near Northbrook by 2:30. The Botanic Garden is a 10-minute drive from the hotel in Glencoe, with a large, easy parking garage.",
-        zh: "参加导览时，开车约45分钟到海德公园，停在芝加哥大学的访客停车楼。奥巴马中心在东面，开车5分钟（或沿平坦的中途绿带步行）即到；约下午1点前离开海德公园，以便返回、在2:30前把两个女孩送到诺斯布鲁克附近的滑冰营。植物园在格伦科（Glencoe），距酒店约10分钟车程，有宽敞好停的停车楼。",
+        en: "For the tour, drive ~45 min to Hyde Park and park in a University of Chicago visitor garage. The Obama Center is a 5-minute drive (or flat Midway walk) east; leave Hyde Park by ~1pm so you're back to drop the girls at camp near Northbrook by 2:30. After drop-off it's a short drive back to the hotel to rest.",
+        zh: "参加导览时，开车约45分钟到海德公园，停在芝加哥大学的访客停车楼。奥巴马中心在东面，开车5分钟（或沿平坦的中途绿带步行）即到；约下午1点前离开海德公园，以便返回、在2:30前把两个女孩送到诺斯布鲁克附近的滑冰营。送达后，开车不远即回酒店休息。",
       },
-      sites: ["uchicago", "obama-center", "botanic-garden"],
+      sites: ["uchicago", "obama-center"],
     },
     {
       id: "sat",
@@ -130,16 +130,16 @@ const TRIP = {
     {
       id: "sun",
       label: { en: "Sun · Jul 12", zh: "周日 · 7月12日" },
-      title: { en: "Baha'i Temple & Fly Home", zh: "巴哈伊灵曦堂与返程" },
+      title: { en: "Botanic Garden, Baha'i Temple & Fly Home", zh: "植物园、巴哈伊灵曦堂与返程" },
       summary: {
-        en: "A calm last morning. The girls finish skating camp in the afternoon, and the flight is at 6pm, so there's time for one gentle, local outing: the beautiful Baha'i House of Worship in nearby Wilmette — quiet gardens and a soaring domed temple, free to visit. Then pick up the girls, return the rental car at O'Hare, and fly home.",
-        zh: "宁静的最后一个上午。两个女孩下午结束滑冰营，航班在傍晚6点，因此还有时间安排一次轻松的本地出游：附近威尔米特（Wilmette）美丽的巴哈伊灵曦堂（Baha'i House of Worship）——宁静的花园与高耸的圆顶圣殿，免费参观。之后接上女孩，在奥黑尔机场还车，乘机回家。",
+        en: "A calm last morning before the evening flight. Start at the Chicago Botanic Garden, just 10 minutes from the hotel — flat paths, a narrated tram and cool greenhouses for a relaxed, senior-friendly stroll. Then the beautiful Baha'i House of Worship in nearby Wilmette, with its quiet gardens and soaring domed temple, free to visit. The girls finish skating camp in the afternoon; pick them up, return the rental car at O'Hare, and fly home at 6pm.",
+        zh: "傍晚航班前，宁静的最后一个上午。先到距酒店仅10分钟的芝加哥植物园——路面平坦、有讲解游览车与凉爽的温室，适合长者轻松散步。之后到附近威尔米特（Wilmette）美丽的巴哈伊灵曦堂（Baha'i House of Worship），那里有宁静的花园与高耸的圆顶圣殿，免费参观。两个女孩下午结束滑冰营；接上她们，在奥黑尔机场还车，乘傍晚6点的航班回家。",
       },
       transport: {
-        en: "The Baha'i Temple is about 15 min from the hotel. Return to pick up the girls when camp ends, then it's about 30–40 min to O'Hare. Aim to arrive at the airport by ~3:30pm for the 6pm flight; return the rental car first.",
-        zh: "巴哈伊灵曦堂距酒店约15分钟。滑冰营结束后回来接女孩，再开约30–40分钟到奥黑尔机场。建议约下午3:30抵达机场，赶傍晚6点的航班；先归还租车。",
+        en: "The Botanic Garden is about 10 min from the hotel in Glencoe, with a large, easy parking garage at the entrance. The Baha'i Temple is about 15 min further south in Wilmette. Keep the morning relaxed, then return to pick up the girls when camp ends — it's about 30–40 min to O'Hare. Aim to arrive at the airport by ~3:30pm for the 6pm flight; return the rental car first.",
+        zh: "植物园在格伦科（Glencoe），距酒店约10分钟，入口处有宽敞好停的停车楼。巴哈伊灵曦堂在南面威尔米特（Wilmette），再约15分钟。上午从容游览，滑冰营结束后回来接女孩，再开约30–40分钟到奥黑尔机场。建议约下午3:30抵达机场，赶傍晚6点的航班；先归还租车。",
       },
-      sites: ["bahai-temple", "departure"],
+      sites: ["botanic-garden", "bahai-temple", "departure"],
     },
   ],
 
@@ -687,15 +687,15 @@ const TRIP = {
       name: { en: "Chicago Botanic Garden", zh: "芝加哥植物园" },
       area: { en: "Glencoe (near the hotel)", zh: "格伦科（近酒店）" },
       summary: {
-        en: "A relaxed, senior-friendly afternoon — flat paths, a narrated tram, and cool greenhouses.",
-        zh: "轻松、适合长者的下午——路面平坦、有讲解游览车与凉爽的温室。",
+        en: "A relaxed, senior-friendly morning — flat paths, a narrated tram, and cool greenhouses.",
+        zh: "轻松、适合长者的上午——路面平坦、有讲解游览车与凉爽的温室。",
       },
       intro: {
-        en: "While the girls are at skating camp, the Chicago Botanic Garden is a gentle, beautiful afternoon just 10 minutes from the hotel. It spreads across 385 acres of islands, lakes and gardens with wide, flat paved paths and benches everywhere. A narrated tram means no one has to walk far, and the greenhouses and café are pleasantly air-conditioned.",
-        zh: "两个女孩在滑冰营期间，芝加哥植物园是距酒店仅10分钟、温柔又美丽的下午去处。它占地385英亩，由岛屿、湖泊和花园组成，铺装步道宽阔平坦，长椅随处可见。有讲解的游览车让人无需远行，温室和咖啡馆则清凉宜人。",
+        en: "On the last morning, the Chicago Botanic Garden is a gentle, beautiful stop just 10 minutes from the hotel. It spreads across 385 acres of islands, lakes and gardens with wide, flat paved paths and benches everywhere. A narrated tram means no one has to walk far, and the greenhouses and café are pleasantly air-conditioned.",
+        zh: "最后一个上午，芝加哥植物园是距酒店仅10分钟、温柔又美丽的去处。它占地385英亩，由岛屿、湖泊和花园组成，铺装步道宽阔平坦，长椅随处可见。有讲解的游览车让人无需远行，温室和咖啡馆则清凉宜人。",
       },
       story: {
-        en: "The Chicago Botanic Garden opened in 1972 in Glencoe, just north of Northbrook, and has grown into one of the most-visited public gardens in the United States. It is really a chain of nine islands set among lakes, linked by bridges and gentle paths.\n\nAmong its favorite areas are the tranquil Japanese Garden ('Sansho-En,' the Garden of Three Islands), the English Walled Garden, the Rose Garden, the Waterfall Garden, and a large greenhouse complex. A working fruit-and-vegetable garden and a prairie round out the grounds.\n\nBeyond its beauty, the Garden is a serious center for plant science and conservation, with laboratories and one of the country's leading programs for training plant scientists.\n\nFor a relaxed visit, the narrated Grand Tram Tour (about 35 minutes) circles the islands and is an easy, seated way to see the highlights — a comfortable choice on a warm afternoon.",
+        en: "The Chicago Botanic Garden opened in 1972 in Glencoe, just north of Northbrook, and has grown into one of the most-visited public gardens in the United States. It is really a chain of nine islands set among lakes, linked by bridges and gentle paths.\n\nAmong its favorite areas are the tranquil Japanese Garden ('Sansho-En,' the Garden of Three Islands), the English Walled Garden, the Rose Garden, the Waterfall Garden, and a large greenhouse complex. A working fruit-and-vegetable garden and a prairie round out the grounds.\n\nBeyond its beauty, the Garden is a serious center for plant science and conservation, with laboratories and one of the country's leading programs for training plant scientists.\n\nFor a relaxed visit, the narrated Grand Tram Tour (about 35 minutes) circles the islands and is an easy, seated way to see the highlights — a comfortable choice on a warm morning.",
         zh: "芝加哥植物园于1972年在诺斯布鲁克以北的格伦科开放，如今已成为全美最受欢迎的公共花园之一。它其实是散落在湖中、由桥梁和平缓步道相连的九座岛屿。\n\n最受喜爱的区域包括宁静的日本庭园（“三松园”，三岛之园）、英式围墙花园、玫瑰园、瀑布花园，以及一处大型温室群。园中还有一片可耕作的果蔬园和一片草原。\n\n除了美景，植物园也是植物科学与保育的重要中心，设有实验室，并拥有全美领先的植物科学人才培养项目之一。\n\n若想轻松游览，有讲解的“大游览车”（Grand Tram Tour，约35分钟）绕岛一周，是坐着看遍亮点的轻松方式——炎热的下午尤为舒适。",
       },
       storySrc: "https://en.wikipedia.org/wiki/Chicago_Botanic_Garden",
@@ -1233,10 +1233,10 @@ const TRIP = {
       {
         title: { en: "🕌 Sunday & Departure (Sun Jul 12)", zh: "🕌 周日与返程（7月12日 周日）" },
         body: {
-          en: "A gentle morning at the Baha'i House of Worship in Wilmette (100 Linden Ave, ~15 min, free). Pick up the girls when camp ends in the afternoon, fill the gas tank, return the rental car at O'Hare, and arrive by ~3:30pm for the 6pm flight.",
-          zh: "上午轻松游览威尔米特的巴哈伊灵曦堂（100 Linden Ave，约15分钟，免费）。下午滑冰营结束后接上女孩，加满油，在奥黑尔机场还车，约下午3:30抵达机场赶傍晚6点的航班。",
+          en: "Start at the Chicago Botanic Garden (1000 Lake Cook Rd, Glencoe, ~10 min, parking garage at the entrance), then a gentle stop at the Baha'i House of Worship in Wilmette (100 Linden Ave, ~15 min, free). Pick up the girls when camp ends in the afternoon, fill the gas tank, return the rental car at O'Hare, and arrive by ~3:30pm for the 6pm flight.",
+          zh: "先到芝加哥植物园（1000 Lake Cook Rd, Glencoe，约10分钟，入口有停车楼），再顺道游览威尔米特的巴哈伊灵曦堂（100 Linden Ave，约15分钟，免费）。下午滑冰营结束后接上女孩，加满油，在奥黑尔机场还车，约下午3:30抵达机场赶傍晚6点的航班。",
         },
-        mapQuery: "Baha'i House of Worship, 100 Linden Ave Wilmette IL",
+        mapQuery: "Chicago Botanic Garden, 1000 Lake Cook Rd Glencoe IL",
       },
       {
         title: { en: "👵 Senior-Friendly Tips", zh: "👵 长者贴士" },
